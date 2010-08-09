@@ -14,3 +14,5 @@ I've been working to enable CMake generation of Visual Studio (and potentially n
 4.  From that directory, run cmake ..
 
 Open solution and build!
+
+Most of the libraries have some sort of Visual Studio path for compilation, but currently only 2010 is setup in here.
