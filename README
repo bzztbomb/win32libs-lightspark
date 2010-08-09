@@ -7,11 +7,10 @@ I've been working to enable CMake generation of Visual Studio (and potentially n
 0.  Clone this repo.  It doesn't matter where, but I've set my directory structure up to look like this:
       lightspark/ -- base dir
       lightspark/lightspark -- clone of the lightspark repo I'm working with
-      lightspark/dlls -- a copy of the dlls needed to run
       lightspark/win32libs-lightspark -- clone of this repo
 1.  Run vcvarsall.bat from your Visual Studio Directory.
 2.  Run setlibs.bat from where you've cloned this repo to.  (lightspark/win32libs-lightspark in my case)
 3.  Create a build directory.  (Example:  lightspark/lightspark/objs)
 4.  From that directory, run cmake ..
 
-Open solution and go!
+Open solution and build!
