@@ -1,0 +1,13 @@
+﻿Build started 7/26/2010 2:10:23 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\pcre-8.02\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "ZERO_CHECK.dir\Debug\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         The system cannot find the path specified.
+         Checking Build System
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 3.
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\pcre-8.02\ZERO_CHECK.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.59

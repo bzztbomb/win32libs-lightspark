@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\lib\Target\Mangler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\SubtargetFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\Target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetAsmLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetELFWriterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetFrameInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetInstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetIntrinsicInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetLoweringObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetRegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Target\TargetSubtarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\lib\Target\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\lib\Target\Mangler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\SubtargetFeature.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\Target.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetAsmLexer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetData.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetELFWriterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetFrameInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetInstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetIntrinsicInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetLoweringObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetRegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Target\TargetSubtarget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="InstructionCombining.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineAddSub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineAndOrXor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineCasts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineCompares.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineLoadStoreAlloca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineMulDivRem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombinePHI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineShifts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineSimplifyDemanded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCombineVectorOps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InstCombine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstCombineWorklist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A85C369E-CFB9-464E-9FD6-24B610A3373C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InstructionCombining.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineAddSub.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineAndOrXor.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineCalls.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineCasts.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineCompares.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineLoadStoreAlloca.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineMulDivRem.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombinePHI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineSelect.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineShifts.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineSimplifyDemanded.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCombineVectorOps.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

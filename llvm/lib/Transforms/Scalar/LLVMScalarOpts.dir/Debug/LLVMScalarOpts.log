@@ -1,0 +1,49 @@
+﻿Build started 7/26/2010 1:23:54 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\Scalar\LLVMScalarOpts.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "LLVMScalarOpts.dir\Debug\LLVMScalarOpts.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMScalarOpts.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMScalarOpts.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt LoopStrengthReduce.cpp  /Zm1000 
+         LoopStrengthReduce.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMScalarOpts.lib" /NOLOGO LLVMScalarOpts.dir\Debug\ABCD.obj
+         LLVMScalarOpts.dir\Debug\ADCE.obj
+         LLVMScalarOpts.dir\Debug\BasicBlockPlacement.obj
+         LLVMScalarOpts.dir\Debug\CodeGenPrepare.obj
+         LLVMScalarOpts.dir\Debug\ConstantProp.obj
+         LLVMScalarOpts.dir\Debug\DCE.obj
+         LLVMScalarOpts.dir\Debug\DeadStoreElimination.obj
+         LLVMScalarOpts.dir\Debug\GEPSplitter.obj
+         LLVMScalarOpts.dir\Debug\GVN.obj
+         LLVMScalarOpts.dir\Debug\IndVarSimplify.obj
+         LLVMScalarOpts.dir\Debug\JumpThreading.obj
+         LLVMScalarOpts.dir\Debug\LICM.obj
+         LLVMScalarOpts.dir\Debug\LoopDeletion.obj
+         LLVMScalarOpts.dir\Debug\LoopIndexSplit.obj
+         LLVMScalarOpts.dir\Debug\LoopRotation.obj
+         LLVMScalarOpts.dir\Debug\LoopStrengthReduce.obj
+         LLVMScalarOpts.dir\Debug\LoopUnrollPass.obj
+         LLVMScalarOpts.dir\Debug\LoopUnswitch.obj
+         LLVMScalarOpts.dir\Debug\MemCpyOptimizer.obj
+         LLVMScalarOpts.dir\Debug\Reassociate.obj
+         LLVMScalarOpts.dir\Debug\Reg2Mem.obj
+         LLVMScalarOpts.dir\Debug\SCCP.obj
+         LLVMScalarOpts.dir\Debug\SCCVN.obj
+         LLVMScalarOpts.dir\Debug\Scalar.obj
+         LLVMScalarOpts.dir\Debug\ScalarReplAggregates.obj
+         LLVMScalarOpts.dir\Debug\SimplifyCFGPass.obj
+         LLVMScalarOpts.dir\Debug\SimplifyHalfPowrLibCalls.obj
+         LLVMScalarOpts.dir\Debug\SimplifyLibCalls.obj
+         LLVMScalarOpts.dir\Debug\TailDuplication.obj
+         LLVMScalarOpts.dir\Debug\TailRecursionElimination.obj
+         LLVMScalarOpts.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMScalarOpts.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMScalarOpts.dir\Debug\LLVMScalarOpts.unsuccessfulbuild".
+         Touching "LLVMScalarOpts.dir\Debug\LLVMScalarOpts.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\Scalar\LLVMScalarOpts.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.41

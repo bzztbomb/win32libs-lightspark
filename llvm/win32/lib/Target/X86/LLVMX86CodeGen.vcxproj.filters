@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86AsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86CodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86COFFMachineModuleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86ELFWriterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86FloatingPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86FloatingPointRegKill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86ISelDAGToDAG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86ISelLowering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86InstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86JITInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86MCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86MCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86MCTargetExpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86RegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86Subtarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86TargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86TargetObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Target\X86\X86FastISel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86CallingConv.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86Instr64bit.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrFormats.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrFPStack.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrFragmentsSIMD.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrInfo.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrMMX.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrSSE.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86RegisterInfo.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86COFF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86COFFMachineModuleInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86ELFWriterInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86FixupKinds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86InstrInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86ISelLowering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86JITInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86MachineFunctionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86MCAsmInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86MCTargetExpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86RegisterInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86Relocations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86Subtarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86TargetMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Target\X86\X86TargetObjectFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="X86GenRegisterInfo.h.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenRegisterNames.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenDisassemblerTables.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenInstrNames.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenAsmWriter1.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenAsmMatcher.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenFastISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenCallingConv.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86GenSubtarget.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\lib\Target\X86\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9449695A-4355-4BFC-BDF3-F3902C02DEC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D9320477-0EF6-4652-BA22-04AB805FDFFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TableGen descriptions">
+      <UniqueIdentifier>{AA1095DC-DE02-4868-8CB1-6A70AABC39C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\lib\Target\X86\X86AsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86CodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86COFFMachineModuleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86ELFWriterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86FloatingPoint.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86FloatingPointRegKill.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86ISelDAGToDAG.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86ISelLowering.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86InstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86JITInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86MCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86MCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86MCTargetExpr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86RegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86Subtarget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86TargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86TargetObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Target\X86\X86FastISel.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="X86GenRegisterInfo.h.inc" />
+    <None Include="X86GenRegisterNames.inc" />
+    <None Include="X86GenRegisterInfo.inc" />
+    <None Include="X86GenDisassemblerTables.inc" />
+    <None Include="X86GenInstrNames.inc" />
+    <None Include="X86GenInstrInfo.inc" />
+    <None Include="X86GenAsmWriter.inc" />
+    <None Include="X86GenAsmWriter1.inc" />
+    <None Include="X86GenAsmMatcher.inc" />
+    <None Include="X86GenDAGISel.inc" />
+    <None Include="X86GenFastISel.inc" />
+    <None Include="X86GenCallingConv.inc" />
+    <None Include="X86GenSubtarget.inc" />
+  </ItemGroup>
+</Project>

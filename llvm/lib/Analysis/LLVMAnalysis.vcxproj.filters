@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AliasAnalysisCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AliasAnalysisEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AliasDebugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AliasSetTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Analysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicAliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFGPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureTracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantFolding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgInfoPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DomPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IVUsers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineCost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalPartition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LazyValueInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibCallAliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibCallSemantics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveValues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopDependenceAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryBuiltins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryDependenceAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PHITransAddr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerTracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostDominators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileEstimatorPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileInfoLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileInfoLoaderPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileVerifierPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScalarEvolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScalarEvolutionAliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScalarEvolutionExpander.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SparsePropagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueTracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AliasAnalysisCounter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AliasAnalysisEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AliasDebugger.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AliasSetTracker.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Analysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="BasicAliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CFGPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CaptureTracking.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ConstantFolding.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DbgInfoPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DebugInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DomPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IVUsers.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InlineCost.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstCount.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstructionSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Interval.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IntervalPartition.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LazyValueInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LibCallAliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LibCallSemantics.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LiveValues.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopDependenceAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MemoryBuiltins.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MemoryDependenceAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PHITransAddr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PointerTracking.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PostDominators.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ProfileEstimatorPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ProfileInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ProfileInfoLoader.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ProfileInfoLoaderPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ProfileVerifierPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScalarEvolution.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScalarEvolutionAliasAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScalarEvolutionExpander.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SparsePropagation.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Trace.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ValueTracking.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿Build started 7/26/2010 1:26:01 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\LLVMCodeGen.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "LLVMCodeGen.dir\Debug\LLVMCodeGen.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMCodeGen.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMCodeGen.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt Spiller.cpp  /Zm1000 
+         Spiller.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMCodeGen.lib" /NOLOGO LLVMCodeGen.dir\Debug\AggressiveAntiDepBreaker.obj
+         LLVMCodeGen.dir\Debug\BranchFolding.obj
+         LLVMCodeGen.dir\Debug\CalcSpillWeights.obj
+         LLVMCodeGen.dir\Debug\CodePlacementOpt.obj
+         LLVMCodeGen.dir\Debug\CriticalAntiDepBreaker.obj
+         LLVMCodeGen.dir\Debug\DeadMachineInstructionElim.obj
+         LLVMCodeGen.dir\Debug\DwarfEHPrepare.obj
+         LLVMCodeGen.dir\Debug\ELFCodeEmitter.obj
+         LLVMCodeGen.dir\Debug\ELFWriter.obj
+         LLVMCodeGen.dir\Debug\ExactHazardRecognizer.obj
+         LLVMCodeGen.dir\Debug\GCMetadata.obj
+         LLVMCodeGen.dir\Debug\GCMetadataPrinter.obj
+         LLVMCodeGen.dir\Debug\GCStrategy.obj
+         LLVMCodeGen.dir\Debug\IfConversion.obj
+         LLVMCodeGen.dir\Debug\IntrinsicLowering.obj
+         LLVMCodeGen.dir\Debug\LLVMTargetMachine.obj
+         LLVMCodeGen.dir\Debug\LatencyPriorityQueue.obj
+         LLVMCodeGen.dir\Debug\LiveInterval.obj
+         LLVMCodeGen.dir\Debug\LiveIntervalAnalysis.obj
+         LLVMCodeGen.dir\Debug\LiveStackAnalysis.obj
+         LLVMCodeGen.dir\Debug\LiveVariables.obj
+         LLVMCodeGen.dir\Debug\LowerSubregs.obj
+         LLVMCodeGen.dir\Debug\MachineBasicBlock.obj
+         LLVMCodeGen.dir\Debug\MachineCSE.obj
+         LLVMCodeGen.dir\Debug\MachineDominators.obj
+         LLVMCodeGen.dir\Debug\MachineFunction.obj
+         LLVMCodeGen.dir\Debug\MachineFunctionAnalysis.obj
+         LLVMCodeGen.dir\Debug\MachineFunctionPass.obj
+         LLVMCodeGen.dir\Debug\MachineInstr.obj
+         LLVMCodeGen.dir\Debug\MachineLICM.obj
+         LLVMCodeGen.dir\Debug\MachineLoopInfo.obj
+         LLVMCodeGen.dir\Debug\MachineModuleInfo.obj
+         LLVMCodeGen.dir\Debug\MachineModuleInfoImpls.obj
+         LLVMCodeGen.dir\Debug\MachinePassRegistry.obj
+         LLVMCodeGen.dir\Debug\MachineRegisterInfo.obj
+         LLVMCodeGen.dir\Debug\MachineSSAUpdater.obj
+         LLVMCodeGen.dir\Debug\MachineSink.obj
+         LLVMCodeGen.dir\Debug\MachineVerifier.obj
+         LLVMCodeGen.dir\Debug\ObjectCodeEmitter.obj
+         LLVMCodeGen.dir\Debug\OcamlGC.obj
+         LLVMCodeGen.dir\Debug\OptimizeExts.obj
+         LLVMCodeGen.dir\Debug\OptimizePHIs.obj
+         LLVMCodeGen.dir\Debug\PHIElimination.obj
+         LLVMCodeGen.dir\Debug\Passes.obj
+         LLVMCodeGen.dir\Debug\PostRASchedulerList.obj
+         LLVMCodeGen.dir\Debug\PreAllocSplitting.obj
+         LLVMCodeGen.dir\Debug\ProcessImplicitDefs.obj
+         LLVMCodeGen.dir\Debug\PrologEpilogInserter.obj
+         LLVMCodeGen.dir\Debug\PseudoSourceValue.obj
+         LLVMCodeGen.dir\Debug\RegAllocLinearScan.obj
+         LLVMCodeGen.dir\Debug\RegAllocLocal.obj
+         LLVMCodeGen.dir\Debug\RegAllocPBQP.obj
+         LLVMCodeGen.dir\Debug\RegisterCoalescer.obj
+         LLVMCodeGen.dir\Debug\RegisterScavenging.obj
+         LLVMCodeGen.dir\Debug\ScheduleDAG.obj
+         LLVMCodeGen.dir\Debug\ScheduleDAGEmit.obj
+         LLVMCodeGen.dir\Debug\ScheduleDAGInstrs.obj
+         LLVMCodeGen.dir\Debug\ScheduleDAGPrinter.obj
+         LLVMCodeGen.dir\Debug\ShadowStackGC.obj
+         LLVMCodeGen.dir\Debug\ShrinkWrapping.obj
+         LLVMCodeGen.dir\Debug\SimpleRegisterCoalescing.obj
+         LLVMCodeGen.dir\Debug\SjLjEHPrepare.obj
+         LLVMCodeGen.dir\Debug\SlotIndexes.obj
+         LLVMCodeGen.dir\Debug\Spiller.obj
+         LLVMCodeGen.dir\Debug\StackProtector.obj
+         LLVMCodeGen.dir\Debug\StackSlotColoring.obj
+         LLVMCodeGen.dir\Debug\StrongPHIElimination.obj
+         LLVMCodeGen.dir\Debug\TailDuplication.obj
+         LLVMCodeGen.dir\Debug\TargetInstrInfoImpl.obj
+         LLVMCodeGen.dir\Debug\TargetLoweringObjectFileImpl.obj
+         LLVMCodeGen.dir\Debug\TwoAddressInstructionPass.obj
+         LLVMCodeGen.dir\Debug\UnreachableBlockElim.obj
+         LLVMCodeGen.dir\Debug\VirtRegMap.obj
+         LLVMCodeGen.dir\Debug\VirtRegRewriter.obj
+         LLVMCodeGen.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMCodeGen.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMCodeGen.dir\Debug\LLVMCodeGen.unsuccessfulbuild".
+         Touching "LLVMCodeGen.dir\Debug\LLVMCodeGen.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\LLVMCodeGen.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:58.38

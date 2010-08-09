@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\ArgumentPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\ConstantMerge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\DeadArgumentElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\DeadTypeElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\ExtractGV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\FunctionAttrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\GlobalDCE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\GlobalOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\IPConstantPropagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\IPO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\InlineAlways.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\InlineSimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\Inliner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\Internalize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\LoopExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\LowerSetJmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\MergeFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\PartialInlining.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\PartialSpecialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\PruneEH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\StripDeadPrototypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\StripSymbols.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\IPO\StructRetPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\lib\Transforms\IPO\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\lib\Transforms\IPO\ArgumentPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\ConstantMerge.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\DeadArgumentElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\DeadTypeElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\ExtractGV.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\FunctionAttrs.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\GlobalDCE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\GlobalOpt.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\IPConstantPropagation.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\IPO.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\InlineAlways.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\InlineSimple.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\Inliner.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\Internalize.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\LoopExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\LowerSetJmp.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\MergeFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\PartialInlining.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\PartialSpecialization.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\PruneEH.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\StripDeadPrototypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\StripSymbols.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\IPO\StructRetPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

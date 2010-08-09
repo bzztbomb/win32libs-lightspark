@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\AsmPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\DIE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CodeGen\AsmPrinter\OcamlGCPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\lib\CodeGen\AsmPrinter\DIE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\lib\CodeGen\AsmPrinter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9449695A-4355-4BFC-BDF3-F3902C02DEC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\AsmPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\DIE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfDebug.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfException.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfLabel.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\DwarfWriter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\CodeGen\AsmPrinter\OcamlGCPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

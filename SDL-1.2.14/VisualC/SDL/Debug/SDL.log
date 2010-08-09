@@ -1,0 +1,231 @@
+﻿Build started 7/26/2010 4:19:05 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\SDL-1.2.14\VisualC\SDL\SDL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\SDL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I"C:\Program Files\Microsoft DirectX SDK (February 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _DEBUG /D _WINDOWS /D _WIN32_WINNT=0x0400 /D _VC80_UPGRADE=0x0700 /D _WINDLL /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\SDL.c ..\..\src\events\SDL_active.c ..\..\src\audio\SDL_audio.c ..\..\src\audio\SDL_audiocvt.c ..\..\src\video\SDL_blit.c ..\..\src\video\SDL_blit_0.c ..\..\src\video\SDL_blit_1.c ..\..\src\video\SDL_blit_A.c ..\..\src\video\SDL_blit_N.c ..\..\src\video\SDL_bmp.c ..\..\src\cdrom\SDL_cdrom.c ..\..\src\cpuinfo\SDL_cpuinfo.c ..\..\src\video\SDL_cursor.c ..\..\src\audio\windib\SDL_dibaudio.c ..\..\src\video\windib\SDL_dibevents.c ..\..\src\video\windib\SDL_dibvideo.c ..\..\src\audio\disk\SDL_diskaudio.c ..\..\src\audio\dummy\SDL_dummyaudio.c ..\..\src\audio\windx5\SDL_dx5audio.c ..\..\src\video\Windx5\SDL_dx5events.c ..\..\src\video\Windx5\SDL_dx5video.c ..\..\src\video\windx5\SDL_dx5yuv.c ..\..\src\SDL_error.c ..\..\src\events\SDL_events.c ..\..\src\events\SDL_expose.c ..\..\src\SDL_fatal.c ..\..\src\video\SDL_gamma.c ..\..\src\stdlib\SDL_getenv.c ..\..\src\stdlib\SDL_iconv.c ..\..\src\joystick\SDL_joystick.c ..\..\src\events\SDL_keyboard.c ..\..\src\stdlib\SDL_malloc.c ..\..\src\audio\SDL_mixer.c ..\..\src\audio\SDL_mixer_MMX_VC.c ..\..\src\joystick\win32\SDL_mmjoystick.c ..\..\src\events\SDL_mouse.c ..\..\src\video\dummy\SDL_nullevents.c ..\..\src\video\dummy\SDL_nullmouse.c ..\..\src\video\dummy\SDL_nullvideo.c ..\..\src\video\SDL_pixels.c ..\..\src\stdlib\SDL_qsort.c ..\..\src\events\SDL_quit.c ..\..\src\events\SDL_resize.c ..\..\src\video\SDL_RLEaccel.c ..\..\src\file\SDL_rwops.c ..\..\src\stdlib\SDL_stdlib.c ..\..\src\video\SDL_stretch.c ..\..\src\stdlib\SDL_string.c ..\..\src\video\SDL_surface.c ..\..\src\cdrom\win32\SDL_syscdrom.c ..\..\src\thread\generic\SDL_syscond.c ..\..\src\video\wincommon\SDL_sysevents.c ..\..\src\loadso\win32\SDL_sysloadso.c ..\..\src\video\wincommon\SDL_sysmouse.c ..\..\src\thread\win32\SDL_sysmutex.c ..\..\src\thread\win32\SDL_syssem.c ..\..\src\thread\win32\SDL_systhread.c ..\..\src\timer\win32\SDL_systimer.c ..\..\src\video\wincommon\SDL_syswm.c ..\..\src\thread\SDL_thread.c ..\..\src\timer\SDL_timer.c ..\..\src\video\SDL_video.c ..\..\src\audio\SDL_wave.c ..\..\src\video\wincommon\SDL_wingl.c ..\..\src\video\SDL_yuv.c ..\..\src\video\SDL_yuv_sw.c
+         SDL.c
+         SDL_active.c
+         SDL_audio.c
+         SDL_audiocvt.c
+         SDL_blit.c
+         SDL_blit_0.c
+         SDL_blit_1.c
+         SDL_blit_A.c
+         SDL_blit_N.c
+         SDL_bmp.c
+         SDL_cdrom.c
+         SDL_cpuinfo.c
+         SDL_cursor.c
+         SDL_dibaudio.c
+         SDL_dibevents.c
+         SDL_dibvideo.c
+         SDL_diskaudio.c
+         SDL_dummyaudio.c
+         SDL_dx5audio.c
+         SDL_dx5events.c
+         Generating Code...
+         Compiling...
+         SDL_dx5video.c
+         SDL_dx5yuv.c
+         SDL_error.c
+         SDL_events.c
+         SDL_expose.c
+         SDL_fatal.c
+         SDL_gamma.c
+         SDL_getenv.c
+         SDL_iconv.c
+         SDL_joystick.c
+         SDL_keyboard.c
+         SDL_malloc.c
+         SDL_mixer.c
+         SDL_mixer_MMX_VC.c
+         SDL_mmjoystick.c
+         SDL_mouse.c
+         SDL_nullevents.c
+         SDL_nullmouse.c
+         SDL_nullvideo.c
+         SDL_pixels.c
+         Generating Code...
+         Compiling...
+         SDL_qsort.c
+         SDL_quit.c
+         SDL_resize.c
+         SDL_RLEaccel.c
+         SDL_rwops.c
+         SDL_stdlib.c
+         SDL_stretch.c
+         SDL_string.c
+         SDL_surface.c
+         SDL_syscdrom.c
+         SDL_syscond.c
+         SDL_sysevents.c
+         SDL_sysloadso.c
+         SDL_sysmouse.c
+         SDL_sysmutex.c
+         SDL_syssem.c
+         SDL_systhread.c
+         SDL_systimer.c
+         SDL_syswm.c
+         SDL_thread.c
+         Generating Code...
+         Compiling...
+         SDL_timer.c
+         SDL_video.c
+         SDL_wave.c
+         SDL_wingl.c
+         SDL_yuv.c
+         SDL_yuv_sw.c
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\SDL.dll.embed.manifest.res" .\Debug\SDL_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/SDL.dll" /INCREMENTAL /NOLOGO winmm.lib "C:\Program Files\Microsoft DirectX SDK (February 2010)\Lib\x86\dxguid.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\SDL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/SDL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/SDL.lib" /MACHINE:X86 /CLRUNMANAGEDCODECHECK:NO /DLL .\Debug\SDL.dll.embed.manifest.res
+         .\Debug/SDL.obj
+         .\Debug/SDL_active.obj
+         .\Debug/SDL_audio.obj
+         .\Debug/SDL_audiocvt.obj
+         .\Debug/SDL_blit.obj
+         .\Debug/SDL_blit_0.obj
+         .\Debug/SDL_blit_1.obj
+         .\Debug/SDL_blit_A.obj
+         .\Debug/SDL_blit_N.obj
+         .\Debug/SDL_bmp.obj
+         .\Debug/SDL_cdrom.obj
+         .\Debug/SDL_cpuinfo.obj
+         .\Debug/SDL_cursor.obj
+         .\Debug/SDL_dibaudio.obj
+         .\Debug/SDL_dibevents.obj
+         .\Debug/SDL_dibvideo.obj
+         .\Debug/SDL_diskaudio.obj
+         .\Debug/SDL_dummyaudio.obj
+         .\Debug/SDL_dx5audio.obj
+         .\Debug/SDL_dx5events.obj
+         .\Debug/SDL_dx5video.obj
+         .\Debug/SDL_dx5yuv.obj
+         .\Debug/SDL_error.obj
+         .\Debug/SDL_events.obj
+         .\Debug/SDL_expose.obj
+         .\Debug/SDL_fatal.obj
+         .\Debug/SDL_gamma.obj
+         .\Debug/SDL_getenv.obj
+         .\Debug/SDL_iconv.obj
+         .\Debug/SDL_joystick.obj
+         .\Debug/SDL_keyboard.obj
+         .\Debug/SDL_malloc.obj
+         .\Debug/SDL_mixer.obj
+         .\Debug/SDL_mixer_MMX_VC.obj
+         .\Debug/SDL_mmjoystick.obj
+         .\Debug/SDL_mouse.obj
+         .\Debug/SDL_nullevents.obj
+         .\Debug/SDL_nullmouse.obj
+         .\Debug/SDL_nullvideo.obj
+         .\Debug/SDL_pixels.obj
+         .\Debug/SDL_qsort.obj
+         .\Debug/SDL_quit.obj
+         .\Debug/SDL_resize.obj
+         .\Debug/SDL_RLEaccel.obj
+         .\Debug/SDL_rwops.obj
+         .\Debug/SDL_stdlib.obj
+         .\Debug/SDL_stretch.obj
+         .\Debug/SDL_string.obj
+         .\Debug/SDL_surface.obj
+         .\Debug/SDL_syscdrom.obj
+         .\Debug/SDL_syscond.obj
+         .\Debug/SDL_sysevents.obj
+         .\Debug/SDL_sysloadso.obj
+         .\Debug/SDL_sysmouse.obj
+         .\Debug/SDL_sysmutex.obj
+         .\Debug/SDL_syssem.obj
+         .\Debug/SDL_systhread.obj
+         .\Debug/SDL_systimer.obj
+         .\Debug/SDL_syswm.obj
+         .\Debug/SDL_thread.obj
+         .\Debug/SDL_timer.obj
+         .\Debug/SDL_video.obj
+         .\Debug/SDL_wave.obj
+         .\Debug/SDL_wingl.obj
+         .\Debug/SDL_yuv.obj
+         .\Debug/SDL_yuv_sw.obj /MACHINE:I386 
+            Creating library .\Debug/SDL.lib and object .\Debug/SDL.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\SDL.dll.embed.manifest" /manifest .\Debug\SDL.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\SDL.dll.embed.manifest.res" .\Debug\SDL_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/SDL.dll" /INCREMENTAL /NOLOGO winmm.lib "C:\Program Files\Microsoft DirectX SDK (February 2010)\Lib\x86\dxguid.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\SDL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/SDL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/SDL.lib" /MACHINE:X86 /CLRUNMANAGEDCODECHECK:NO /DLL .\Debug\SDL.dll.embed.manifest.res
+         .\Debug/SDL.obj
+         .\Debug/SDL_active.obj
+         .\Debug/SDL_audio.obj
+         .\Debug/SDL_audiocvt.obj
+         .\Debug/SDL_blit.obj
+         .\Debug/SDL_blit_0.obj
+         .\Debug/SDL_blit_1.obj
+         .\Debug/SDL_blit_A.obj
+         .\Debug/SDL_blit_N.obj
+         .\Debug/SDL_bmp.obj
+         .\Debug/SDL_cdrom.obj
+         .\Debug/SDL_cpuinfo.obj
+         .\Debug/SDL_cursor.obj
+         .\Debug/SDL_dibaudio.obj
+         .\Debug/SDL_dibevents.obj
+         .\Debug/SDL_dibvideo.obj
+         .\Debug/SDL_diskaudio.obj
+         .\Debug/SDL_dummyaudio.obj
+         .\Debug/SDL_dx5audio.obj
+         .\Debug/SDL_dx5events.obj
+         .\Debug/SDL_dx5video.obj
+         .\Debug/SDL_dx5yuv.obj
+         .\Debug/SDL_error.obj
+         .\Debug/SDL_events.obj
+         .\Debug/SDL_expose.obj
+         .\Debug/SDL_fatal.obj
+         .\Debug/SDL_gamma.obj
+         .\Debug/SDL_getenv.obj
+         .\Debug/SDL_iconv.obj
+         .\Debug/SDL_joystick.obj
+         .\Debug/SDL_keyboard.obj
+         .\Debug/SDL_malloc.obj
+         .\Debug/SDL_mixer.obj
+         .\Debug/SDL_mixer_MMX_VC.obj
+         .\Debug/SDL_mmjoystick.obj
+         .\Debug/SDL_mouse.obj
+         .\Debug/SDL_nullevents.obj
+         .\Debug/SDL_nullmouse.obj
+         .\Debug/SDL_nullvideo.obj
+         .\Debug/SDL_pixels.obj
+         .\Debug/SDL_qsort.obj
+         .\Debug/SDL_quit.obj
+         .\Debug/SDL_resize.obj
+         .\Debug/SDL_RLEaccel.obj
+         .\Debug/SDL_rwops.obj
+         .\Debug/SDL_stdlib.obj
+         .\Debug/SDL_stretch.obj
+         .\Debug/SDL_string.obj
+         .\Debug/SDL_surface.obj
+         .\Debug/SDL_syscdrom.obj
+         .\Debug/SDL_syscond.obj
+         .\Debug/SDL_sysevents.obj
+         .\Debug/SDL_sysloadso.obj
+         .\Debug/SDL_sysmouse.obj
+         .\Debug/SDL_sysmutex.obj
+         .\Debug/SDL_syssem.obj
+         .\Debug/SDL_systhread.obj
+         .\Debug/SDL_systimer.obj
+         .\Debug/SDL_syswm.obj
+         .\Debug/SDL_thread.obj
+         .\Debug/SDL_timer.obj
+         .\Debug/SDL_video.obj
+         .\Debug/SDL_wave.obj
+         .\Debug/SDL_wingl.obj
+         .\Debug/SDL_yuv.obj
+         .\Debug/SDL_yuv_sw.obj /MACHINE:I386 
+            Creating library .\Debug/SDL.lib and object .\Debug/SDL.exp
+         SDL.vcxproj -> C:\Users\skinny\projects\lightspark\SDL-1.2.14\VisualC\SDL\.\Debug\SDL.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\SDL.unsuccessfulbuild".
+         Touching ".\Debug\SDL.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\SDL-1.2.14\VisualC\SDL\SDL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.28

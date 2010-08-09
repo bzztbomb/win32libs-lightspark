@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\ABCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\ADCE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\BasicBlockPlacement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\CodeGenPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\ConstantProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\DCE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\DeadStoreElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\GEPSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\GVN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\IndVarSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\JumpThreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\LICM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\LoopDeletion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\LoopIndexSplit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\LoopRotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\LoopStrengthReduce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\LoopUnrollPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\LoopUnswitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\MemCpyOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\Reassociate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\Reg2Mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\SCCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\SCCVN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\Scalar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\ScalarReplAggregates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\SimplifyCFGPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\SimplifyHalfPowrLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\SimplifyLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\TailDuplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Scalar\TailRecursionElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\lib\Transforms\Scalar\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\ABCD.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\ADCE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\BasicBlockPlacement.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\CodeGenPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\ConstantProp.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\DCE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\DeadStoreElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\GEPSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\GVN.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\IndVarSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\JumpThreading.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\LICM.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\LoopDeletion.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\LoopIndexSplit.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\LoopRotation.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\LoopStrengthReduce.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\LoopUnrollPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\LoopUnswitch.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\MemCpyOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\Reassociate.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\Reg2Mem.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\SCCP.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\SCCVN.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\Scalar.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\ScalarReplAggregates.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\SimplifyCFGPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\SimplifyHalfPowrLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\SimplifyLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\TailDuplication.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Scalar\TailRecursionElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

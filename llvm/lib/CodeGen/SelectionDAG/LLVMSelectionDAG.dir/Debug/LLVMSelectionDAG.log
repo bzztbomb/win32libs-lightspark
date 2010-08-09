@@ -1,0 +1,40 @@
+﻿Build started 7/26/2010 1:39:49 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\SelectionDAG\LLVMSelectionDAG.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "LLVMSelectionDAG.dir\Debug\LLVMSelectionDAG.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMSelectionDAG.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMSelectionDAG.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt TargetLowering.cpp  /Zm1000 
+         TargetLowering.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMSelectionDAG.lib" /NOLOGO LLVMSelectionDAG.dir\Debug\CallingConvLower.obj
+         LLVMSelectionDAG.dir\Debug\DAGCombiner.obj
+         LLVMSelectionDAG.dir\Debug\FastISel.obj
+         LLVMSelectionDAG.dir\Debug\FunctionLoweringInfo.obj
+         LLVMSelectionDAG.dir\Debug\InstrEmitter.obj
+         LLVMSelectionDAG.dir\Debug\LegalizeDAG.obj
+         LLVMSelectionDAG.dir\Debug\LegalizeFloatTypes.obj
+         LLVMSelectionDAG.dir\Debug\LegalizeIntegerTypes.obj
+         LLVMSelectionDAG.dir\Debug\LegalizeTypes.obj
+         LLVMSelectionDAG.dir\Debug\LegalizeTypesGeneric.obj
+         LLVMSelectionDAG.dir\Debug\LegalizeVectorOps.obj
+         LLVMSelectionDAG.dir\Debug\LegalizeVectorTypes.obj
+         LLVMSelectionDAG.dir\Debug\ScheduleDAGFast.obj
+         LLVMSelectionDAG.dir\Debug\ScheduleDAGList.obj
+         LLVMSelectionDAG.dir\Debug\ScheduleDAGRRList.obj
+         LLVMSelectionDAG.dir\Debug\ScheduleDAGSDNodes.obj
+         LLVMSelectionDAG.dir\Debug\SelectionDAG.obj
+         LLVMSelectionDAG.dir\Debug\SelectionDAGBuilder.obj
+         LLVMSelectionDAG.dir\Debug\SelectionDAGISel.obj
+         LLVMSelectionDAG.dir\Debug\SelectionDAGPrinter.obj
+         LLVMSelectionDAG.dir\Debug\TargetLowering.obj
+         LLVMSelectionDAG.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMSelectionDAG.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMSelectionDAG.dir\Debug\LLVMSelectionDAG.unsuccessfulbuild".
+         Touching "LLVMSelectionDAG.dir\Debug\LLVMSelectionDAG.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\SelectionDAG\LLVMSelectionDAG.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.71

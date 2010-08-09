@@ -1,0 +1,171 @@
+﻿Build started 7/26/2010 2:55:30 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\ftgl_dll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "./Debug\ftgl_dll.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I/include /I../../src /I../ /I"..\..\..\freetype-2.1.10\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D FTGL_LIBRARY /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"./Debug/" /Fd"./Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\FTBuffer.cpp ..\..\src\FTCharmap.cpp ..\..\src\FTContour.cpp ..\..\src\FTFace.cpp ..\..\src\FTGlyphContainer.cpp ..\..\src\FTLibrary.cpp ..\..\src\FTPoint.cpp ..\..\src\FTSize.cpp ..\..\src\FTVectoriser.cpp ..\..\src\FTGlyph\FTBitmapGlyph.cpp ..\..\src\FTGlyph\FTBufferGlyph.cpp ..\..\src\FTGlyph\FTExtrudeGlyph.cpp ..\..\src\FTGlyph\FTGlyph.cpp ..\..\src\FTGlyph\FTGlyphGlue.cpp ..\..\src\FTGlyph\FTOutlineGlyph.cpp ..\..\src\FTGlyph\FTPixmapGlyph.cpp ..\..\src\FTGlyph\FTPolygonGlyph.cpp ..\..\src\FTGlyph\FTTextureGlyph.cpp ..\..\src\FTFont\FTBitmapFont.cpp ..\..\src\FTFont\FTBufferFont.cpp ..\..\src\FTFont\FTExtrudeFont.cpp ..\..\src\FTFont\FTFont.cpp ..\..\src\FTFont\FTFontGlue.cpp ..\..\src\FTFont\FTOutlineFont.cpp ..\..\src\FTFont\FTPixmapFont.cpp ..\..\src\FTFont\FTPolygonFont.cpp ..\..\src\FTFont\FTTextureFont.cpp ..\..\src\FTLayout\FTLayout.cpp ..\..\src\FTLayout\FTLayoutGlue.cpp ..\..\src\FTLayout\FTSimpleLayout.cpp
+         FTSimpleLayout.cpp
+         FTLayoutGlue.cpp
+         FTLayout.cpp
+         FTTextureFont.cpp
+         FTPolygonFont.cpp
+         FTPixmapFont.cpp
+         FTOutlineFont.cpp
+         FTFontGlue.cpp
+         FTFont.cpp
+         FTExtrudeFont.cpp
+         FTBufferFont.cpp
+         FTBitmapFont.cpp
+         FTTextureGlyph.cpp
+         FTPolygonGlyph.cpp
+         FTPixmapGlyph.cpp
+         FTOutlineGlyph.cpp
+         FTGlyphGlue.cpp
+         FTGlyph.cpp
+         FTExtrudeGlyph.cpp
+         FTBufferGlyph.cpp
+         Generating Code...
+         Compiling...
+         FTBitmapGlyph.cpp
+         FTVectoriser.cpp
+         FTSize.cpp
+         FTPoint.cpp
+         FTLibrary.cpp
+         FTGlyphContainer.cpp
+         FTFace.cpp
+         FTContour.cpp
+         FTCharmap.cpp
+         FTBuffer.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"./Debug\ftgl_dll.dll.embed.manifest.res" ./Debug\ftgl_dll_manifest.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\../Build\ftgl_dll.dll) does not match the Linker's OutputFile property value (C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\ftgl_D.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(ftgl_dll) does not match the Linker's OutputFile property value (ftgl_D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Build/ftgl_D.dll" /INCREMENTAL /NOLOGO /LIBPATH:"../../../freetype-2.1.10/objs" odbc32.lib odbccp32.lib opengl32.lib glu32.lib freetype2110MT_D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"./Debug\ftgl_dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"../Build/ftgl_D.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../Build/ftgl_D.lib" /MACHINE:X86 /DLL ./Debug\ftgl_dll.dll.embed.manifest.res
+         ./Debug/FTBuffer.obj
+         ./Debug/FTCharmap.obj
+         ./Debug/FTContour.obj
+         ./Debug/FTFace.obj
+         ./Debug/FTGlyphContainer.obj
+         ./Debug/FTLibrary.obj
+         ./Debug/FTPoint.obj
+         ./Debug/FTSize.obj
+         ./Debug/FTVectoriser.obj
+         ./Debug/FTBitmapGlyph.obj
+         ./Debug/FTBufferGlyph.obj
+         ./Debug/FTExtrudeGlyph.obj
+         ./Debug/FTGlyph.obj
+         ./Debug/FTGlyphGlue.obj
+         ./Debug/FTOutlineGlyph.obj
+         ./Debug/FTPixmapGlyph.obj
+         ./Debug/FTPolygonGlyph.obj
+         ./Debug/FTTextureGlyph.obj
+         ./Debug/FTBitmapFont.obj
+         ./Debug/FTBufferFont.obj
+         ./Debug/FTExtrudeFont.obj
+         ./Debug/FTFont.obj
+         ./Debug/FTFontGlue.obj
+         ./Debug/FTOutlineFont.obj
+         ./Debug/FTPixmapFont.obj
+         ./Debug/FTPolygonFont.obj
+         ./Debug/FTTextureFont.obj
+         ./Debug/FTLayout.obj
+         ./Debug/FTLayoutGlue.obj
+         ./Debug/FTSimpleLayout.obj
+            Creating library ../Build/ftgl_D.lib and object ../Build/ftgl_D.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>freetype2110MT_D.lib(autofit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(autofit.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(bdf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(bdf.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(cff.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(cff.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftbase.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftbase.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftbitmap.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftbitmap.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftdebug.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftdebug.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftglyph.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftglyph.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftgzip.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftgzip.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftinit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftinit.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftlzw.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftlzw.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftsystem.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftsystem.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(smooth.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(smooth.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(pcf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(pcf.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(pfr.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(pfr.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(psaux.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(psaux.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(pshinter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(pshinter.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(psmodule.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(psmodule.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(raster.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(raster.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(sfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(sfnt.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(truetype.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(truetype.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(type1.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(type1.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(type1cid.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(type1cid.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(type42.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(type42.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(winfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(winfnt.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"./Debug\ftgl_dll.dll.embed.manifest" /manifest ./Debug\ftgl_dll.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"./Debug\ftgl_dll.dll.embed.manifest.res" ./Debug\ftgl_dll_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Build/ftgl_D.dll" /INCREMENTAL /NOLOGO /LIBPATH:"../../../freetype-2.1.10/objs" odbc32.lib odbccp32.lib opengl32.lib glu32.lib freetype2110MT_D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"./Debug\ftgl_dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"../Build/ftgl_D.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../Build/ftgl_D.lib" /MACHINE:X86 /DLL ./Debug\ftgl_dll.dll.embed.manifest.res
+         ./Debug/FTBuffer.obj
+         ./Debug/FTCharmap.obj
+         ./Debug/FTContour.obj
+         ./Debug/FTFace.obj
+         ./Debug/FTGlyphContainer.obj
+         ./Debug/FTLibrary.obj
+         ./Debug/FTPoint.obj
+         ./Debug/FTSize.obj
+         ./Debug/FTVectoriser.obj
+         ./Debug/FTBitmapGlyph.obj
+         ./Debug/FTBufferGlyph.obj
+         ./Debug/FTExtrudeGlyph.obj
+         ./Debug/FTGlyph.obj
+         ./Debug/FTGlyphGlue.obj
+         ./Debug/FTOutlineGlyph.obj
+         ./Debug/FTPixmapGlyph.obj
+         ./Debug/FTPolygonGlyph.obj
+         ./Debug/FTTextureGlyph.obj
+         ./Debug/FTBitmapFont.obj
+         ./Debug/FTBufferFont.obj
+         ./Debug/FTExtrudeFont.obj
+         ./Debug/FTFont.obj
+         ./Debug/FTFontGlue.obj
+         ./Debug/FTOutlineFont.obj
+         ./Debug/FTPixmapFont.obj
+         ./Debug/FTPolygonFont.obj
+         ./Debug/FTTextureFont.obj
+         ./Debug/FTLayout.obj
+         ./Debug/FTLayoutGlue.obj
+         ./Debug/FTSimpleLayout.obj
+            Creating library ../Build/ftgl_D.lib and object ../Build/ftgl_D.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>freetype2110MT_D.lib(autofit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(autofit.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(bdf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(bdf.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(cff.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(cff.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftbase.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftbase.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftbitmap.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftbitmap.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftdebug.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftdebug.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftglyph.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftglyph.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftgzip.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftgzip.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftinit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftinit.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftlzw.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftlzw.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(ftsystem.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(ftsystem.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(smooth.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(smooth.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(pcf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(pcf.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(pfr.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(pfr.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(psaux.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(psaux.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(pshinter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(pshinter.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(psmodule.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(psmodule.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(raster.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(raster.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(sfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(sfnt.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(truetype.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(truetype.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(type1.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(type1.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(type1cid.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(type1cid.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(type42.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(type42.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+     1>freetype2110MT_D.lib(winfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype2110MT_D.lib(winfnt.obj)' or at 'C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\Build\vc90.pdb'; linking object as if no debug info
+         ftgl_dll.vcxproj -> C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\../Build\ftgl_dll.dll
+       FinalizeBuildStatus:
+         Deleting file "./Debug\ftgl_dll.unsuccessfulbuild".
+         Touching "./Debug\ftgl_dll.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\ftgl_dll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.48

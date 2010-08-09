@@ -1,0 +1,84 @@
+﻿Build started 7/26/2010 12:03:36 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\win32\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ComputeCustomBuildOutput:
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Support\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\System\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\utils\TableGen\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\VMCore\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\CodeGen\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\CodeGen\SelectionDAG\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\CodeGen\AsmPrinter\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Bitcode\Reader\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Bitcode\Writer\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Transforms\Utils\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Transforms\Instrumentation\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Transforms\InstCombine\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Transforms\Scalar\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Transforms\IPO\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Transforms\Hello\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Linker\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Analysis\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Analysis\IPA\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\MC\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\MC\MCParser\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\test\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\utils\FileCheck\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\utils\count\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\utils\not\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Target\X86\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Target\X86\TargetInfo\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Target\X86\AsmPrinter\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Target\X86\AsmParser\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Target\X86\Disassembler\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\ExecutionEngine\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\ExecutionEngine\Interpreter\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\ExecutionEngine\JIT\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Target\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\AsmParser\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\projects\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\opt\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-as\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-dis\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llc\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-ranlib\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-ar\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-nm\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-ld\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-prof\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-link\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\lli\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-extract\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\bugpoint\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-bcanalyzer\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-stub\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvmc\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\BrainF\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Fibonacci\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\HowToUseJIT\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\Chapter2\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\Chapter3\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\Chapter4\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\Chapter5\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\Chapter6\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\Chapter7\CMakeFiles\".
+         Creating directory "C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\ModuleMaker\CMakeFiles\".
+       CustomBuild:
+         Checking Build System
+         CMake is re-running because C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/CMakeFiles/generate.stamp dependency file is missing.
+     1>CUSTOMBUILD : CMake error : The source directory "C:/Users/skinny/projects/lightspark/lib/llvm-2.7" does not appear to contain CMakeLists.txt.
+         Specify --help for usage, or press the help button on the CMake GUI.
+         The system cannot find the batch label specified - VCReportError
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\win32\ZERO_CHECK.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.02

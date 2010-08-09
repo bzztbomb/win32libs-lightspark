@@ -1,0 +1,46 @@
+﻿Build started 7/26/2010 1:15:06 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\InstCombine\LLVMInstCombine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "LLVMInstCombine.dir\Debug\LLVMInstCombine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/Transforms/InstCombine/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\InstCombine\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMInstCombine.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMInstCombine.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt InstructionCombining.cpp InstCombineAddSub.cpp InstCombineAndOrXor.cpp InstCombineCalls.cpp InstCombineCasts.cpp InstCombineCompares.cpp InstCombineLoadStoreAlloca.cpp InstCombineMulDivRem.cpp InstCombinePHI.cpp InstCombineSelect.cpp InstCombineShifts.cpp InstCombineSimplifyDemanded.cpp InstCombineVectorOps.cpp  /Zm1000 
+         InstructionCombining.cpp
+         InstCombineAddSub.cpp
+         InstCombineAndOrXor.cpp
+         InstCombineCalls.cpp
+         InstCombineCasts.cpp
+         InstCombineCompares.cpp
+         InstCombineLoadStoreAlloca.cpp
+         InstCombineMulDivRem.cpp
+         InstCombinePHI.cpp
+         InstCombineSelect.cpp
+         InstCombineShifts.cpp
+         InstCombineSimplifyDemanded.cpp
+         InstCombineVectorOps.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMInstCombine.lib" /NOLOGO LLVMInstCombine.dir\Debug\InstructionCombining.obj
+         LLVMInstCombine.dir\Debug\InstCombineAddSub.obj
+         LLVMInstCombine.dir\Debug\InstCombineAndOrXor.obj
+         LLVMInstCombine.dir\Debug\InstCombineCalls.obj
+         LLVMInstCombine.dir\Debug\InstCombineCasts.obj
+         LLVMInstCombine.dir\Debug\InstCombineCompares.obj
+         LLVMInstCombine.dir\Debug\InstCombineLoadStoreAlloca.obj
+         LLVMInstCombine.dir\Debug\InstCombineMulDivRem.obj
+         LLVMInstCombine.dir\Debug\InstCombinePHI.obj
+         LLVMInstCombine.dir\Debug\InstCombineSelect.obj
+         LLVMInstCombine.dir\Debug\InstCombineShifts.obj
+         LLVMInstCombine.dir\Debug\InstCombineSimplifyDemanded.obj
+         LLVMInstCombine.dir\Debug\InstCombineVectorOps.obj
+         LLVMInstCombine.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMInstCombine.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMInstCombine.dir\Debug\LLVMInstCombine.unsuccessfulbuild".
+         Touching "LLVMInstCombine.dir\Debug\LLVMInstCombine.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\InstCombine\LLVMInstCombine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.39

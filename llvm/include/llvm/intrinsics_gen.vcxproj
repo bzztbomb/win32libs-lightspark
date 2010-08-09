@@ -1,0 +1,153 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8DC38560-238D-462C-970C-8B53536A8DA3}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Intrinsics.gen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Intrinsics.gen...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\Debug\tblgen.exe -gen-intrinsic -I C:/Users/skinny/projects/lightspark/llvm/include/llvm -I C:/Users/skinny/projects/lightspark/llvm/lib/Target -I C:/Users/skinny/projects/lightspark/llvm/include C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.td -o C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen.rule;C:\Users\skinny\projects\lightspark\llvm\bin\Debug\tblgen.exe;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CodeGen\ValueTypes.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CompilerDriver\Common.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\Target.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetCallingConv.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSchedule.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Intrinsics.gen...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\Release\tblgen.exe -gen-intrinsic -I C:/Users/skinny/projects/lightspark/llvm/include/llvm -I C:/Users/skinny/projects/lightspark/llvm/lib/Target -I C:/Users/skinny/projects/lightspark/llvm/include C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.td -o C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen.rule;C:\Users\skinny\projects\lightspark\llvm\bin\Release\tblgen.exe;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CodeGen\ValueTypes.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CompilerDriver\Common.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\Target.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetCallingConv.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSchedule.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Intrinsics.gen...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">..\..\bin\MinSizeRel\tblgen.exe -gen-intrinsic -I C:/Users/skinny/projects/lightspark/llvm/include/llvm -I C:/Users/skinny/projects/lightspark/llvm/lib/Target -I C:/Users/skinny/projects/lightspark/llvm/include C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.td -o C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen.rule;C:\Users\skinny\projects\lightspark\llvm\bin\MinSizeRel\tblgen.exe;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CodeGen\ValueTypes.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CompilerDriver\Common.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\Target.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetCallingConv.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSchedule.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Intrinsics.gen...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">..\..\bin\RelWithDebInfo\tblgen.exe -gen-intrinsic -I C:/Users/skinny/projects/lightspark/llvm/include/llvm -I C:/Users/skinny/projects/lightspark/llvm/lib/Target -I C:/Users/skinny/projects/lightspark/llvm/include C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.td -o C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/Intrinsics.gen.rule;C:\Users\skinny\projects\lightspark\llvm\bin\RelWithDebInfo\tblgen.exe;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CodeGen\ValueTypes.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CompilerDriver\Common.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsAlpha.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsARM.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsCellSPU.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsPowerPC.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsX86.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\IntrinsicsXCore.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\Target.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetCallingConv.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSchedule.td;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\intrinsics_gen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeFiles/intrinsics_gen.rule;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\intrinsics_gen;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeFiles/intrinsics_gen.rule;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\intrinsics_gen;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeFiles/intrinsics_gen.rule;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\intrinsics_gen;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeFiles/intrinsics_gen.rule;C:\Users\skinny\projects\lightspark\llvm\include\llvm\Intrinsics.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\intrinsics_gen;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/utils/TableGen/tblgen.vcxproj">
+      <Project>D5A07F73-B5CE-428A-A080-AEDC743095B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/ZERO_CHECK.vcxproj">
+      <Project>FDD4AF58-8ABD-47AE-8D31-9F4B3DD4F66B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

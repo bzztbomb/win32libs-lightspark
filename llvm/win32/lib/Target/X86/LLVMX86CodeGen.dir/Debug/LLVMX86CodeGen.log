@@ -1,0 +1,19 @@
+﻿Build started 7/26/2010 12:03:45 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\win32\lib\Target\X86\LLVMX86CodeGen.vcxproj" on node 3 (build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/utils/TableGen/tblgen.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include/llvm/intrinsics_gen.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/CodeGen/SelectionDAG/LLVMSelectionDAG.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/X86/X86CodeGenTable_gen.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/ZERO_CHECK.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         Creating "LLVMX86CodeGen.dir\Debug\LLVMX86CodeGen.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building X86GenRegisterInfo.h.inc...
+         Could not open input file 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Target/X86/X86.td': No such file or directory
+         The system cannot find the batch label specified - VCReportError
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 1.
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\win32\lib\Target\X86\LLVMX86CodeGen.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37

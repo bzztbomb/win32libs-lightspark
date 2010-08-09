@@ -1,0 +1,32 @@
+﻿Build started 7/26/2010 1:09:28 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\utils\count\count.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\skinny\projects\lightspark\llvm\bin\Debug\".
+       InitializeBuildStatus:
+         Creating "count.dir\Debug\count.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/utils/count/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\utils\count\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"count.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/bin/Debug/count.pdb" /Gd /TC /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt count.c  /Zm1000 
+         count.c
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"count.dir\Debug\count.exe.embed.manifest.res" count.dir\Debug\count_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\count.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"count.dir\Debug\count.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\count.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/count.lib" /MACHINE:X86 count.dir\Debug\count.exe.embed.manifest.res
+         count.dir\Debug\count.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"count.dir\Debug\count.exe.embed.manifest" /manifest count.dir\Debug\count.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"count.dir\Debug\count.exe.embed.manifest.res" count.dir\Debug\count_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\count.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"count.dir\Debug\count.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\count.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/count.lib" /MACHINE:X86 count.dir\Debug\count.exe.embed.manifest.res
+         count.dir\Debug\count.obj  /machine:X86 /debug 
+         count.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\bin\Debug\count.exe
+       FinalizeBuildStatus:
+         Deleting file "count.dir\Debug\count.unsuccessfulbuild".
+         Touching "count.dir\Debug\count.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\utils\count\count.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.63

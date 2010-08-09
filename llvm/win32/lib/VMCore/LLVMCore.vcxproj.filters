@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\lib\VMCore\AsmWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Attributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\AutoUpgrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\BasicBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\ConstantFold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Dominators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\GVMaterializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\IRBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\InlineAsm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Instructions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\IntrinsicInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\LLVMContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\LeakDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Pass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\PassManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\PrintModulePass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\TypeSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Use.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\ValueSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\ValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\VMCore\Verifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\lib\VMCore\ConstantFold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\VMCore\ConstantsContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\VMCore\LeaksContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\VMCore\LLVMContextImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\VMCore\SymbolTableListTraitsImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\VMCore\TypesContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\lib\VMCore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9449695A-4355-4BFC-BDF3-F3902C02DEC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\lib\VMCore\AsmWriter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Attributes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\AutoUpgrade.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\BasicBlock.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\ConstantFold.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Constants.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Core.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Dominators.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Function.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\GVMaterializer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\IRBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\InlineAsm.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Instructions.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\IntrinsicInst.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\LLVMContext.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\LeakDetector.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Metadata.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Module.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Pass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\PassManager.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\PrintModulePass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Type.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\TypeSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Use.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Value.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\ValueSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\ValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\VMCore\Verifier.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

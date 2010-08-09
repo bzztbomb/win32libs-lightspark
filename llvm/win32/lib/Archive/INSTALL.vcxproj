@@ -1,0 +1,150 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{3EF47C0C-06EF-4D25-BA58-6FB4CEFDBFC6}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"c:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"c:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"c:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"c:\Program Files\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Archive/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Archive/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Archive/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Archive/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\lib\Archive\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/lib/Archive/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\lib\Archive\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Archive\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/ALL_BUILD.vcxproj">
+      <Project>7C1F813D-0FF3-4581-8240-A20D77844033</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,68 @@
+﻿Build started 7/26/2010 1:15:39 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\IPO\LLVMipo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "LLVMipo.dir\Debug\LLVMipo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/Transforms/IPO/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\IPO\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMipo.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMipo.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt ArgumentPromotion.cpp ConstantMerge.cpp DeadArgumentElimination.cpp DeadTypeElimination.cpp ExtractGV.cpp FunctionAttrs.cpp GlobalDCE.cpp GlobalOpt.cpp IPConstantPropagation.cpp IPO.cpp InlineAlways.cpp InlineSimple.cpp Inliner.cpp Internalize.cpp LoopExtractor.cpp LowerSetJmp.cpp MergeFunctions.cpp PartialInlining.cpp PartialSpecialization.cpp PruneEH.cpp StripDeadPrototypes.cpp StripSymbols.cpp StructRetPromotion.cpp  /Zm1000 
+         ArgumentPromotion.cpp
+         ConstantMerge.cpp
+         DeadArgumentElimination.cpp
+         DeadTypeElimination.cpp
+         ExtractGV.cpp
+         FunctionAttrs.cpp
+         GlobalDCE.cpp
+         GlobalOpt.cpp
+         IPConstantPropagation.cpp
+         IPO.cpp
+         InlineAlways.cpp
+         InlineSimple.cpp
+         Inliner.cpp
+         Internalize.cpp
+         LoopExtractor.cpp
+         LowerSetJmp.cpp
+         MergeFunctions.cpp
+         PartialInlining.cpp
+         PartialSpecialization.cpp
+         PruneEH.cpp
+         Generating Code...
+         Compiling...
+         StripDeadPrototypes.cpp
+         StripSymbols.cpp
+         StructRetPromotion.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMipo.lib" /NOLOGO LLVMipo.dir\Debug\ArgumentPromotion.obj
+         LLVMipo.dir\Debug\ConstantMerge.obj
+         LLVMipo.dir\Debug\DeadArgumentElimination.obj
+         LLVMipo.dir\Debug\DeadTypeElimination.obj
+         LLVMipo.dir\Debug\ExtractGV.obj
+         LLVMipo.dir\Debug\FunctionAttrs.obj
+         LLVMipo.dir\Debug\GlobalDCE.obj
+         LLVMipo.dir\Debug\GlobalOpt.obj
+         LLVMipo.dir\Debug\IPConstantPropagation.obj
+         LLVMipo.dir\Debug\IPO.obj
+         LLVMipo.dir\Debug\InlineAlways.obj
+         LLVMipo.dir\Debug\InlineSimple.obj
+         LLVMipo.dir\Debug\Inliner.obj
+         LLVMipo.dir\Debug\Internalize.obj
+         LLVMipo.dir\Debug\LoopExtractor.obj
+         LLVMipo.dir\Debug\LowerSetJmp.obj
+         LLVMipo.dir\Debug\MergeFunctions.obj
+         LLVMipo.dir\Debug\PartialInlining.obj
+         LLVMipo.dir\Debug\PartialSpecialization.obj
+         LLVMipo.dir\Debug\PruneEH.obj
+         LLVMipo.dir\Debug\StripDeadPrototypes.obj
+         LLVMipo.dir\Debug\StripSymbols.obj
+         LLVMipo.dir\Debug\StructRetPromotion.obj
+         LLVMipo.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMipo.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMipo.dir\Debug\LLVMipo.unsuccessfulbuild".
+         Touching "LLVMipo.dir\Debug\LLVMipo.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\IPO\LLVMipo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.03

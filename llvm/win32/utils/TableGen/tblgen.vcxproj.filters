@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\utils\TableGen\AsmMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\AsmWriterEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\AsmWriterInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\CallingConvEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\ClangDiagnosticsEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\CodeEmitterGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\CodeGenDAGPatterns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\CodeGenInstruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\CodeGenTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\DAGISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\DAGISelMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\DAGISelMatcherGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\DAGISelMatcherOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\DAGISelMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\DisassemblerEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\EDEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\FastISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\InstrEnumEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\InstrInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\IntrinsicEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\LLVMCConfigurationEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\OptParserEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\Record.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\RegisterInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\SubtargetEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\TGLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\TGParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\TGValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\TableGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\TableGenBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\X86DisassemblerTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\TableGen\X86RecognizableInstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\utils\TableGen\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\utils\TableGen\AsmMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\AsmWriterEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\AsmWriterInst.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\CallingConvEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\ClangDiagnosticsEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\CodeEmitterGen.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\CodeGenDAGPatterns.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\CodeGenInstruction.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\CodeGenTarget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\DAGISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\DAGISelMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\DAGISelMatcherGen.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\DAGISelMatcherOpt.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\DAGISelMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\DisassemblerEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\EDEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\FastISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\InstrEnumEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\InstrInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\IntrinsicEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\LLVMCConfigurationEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\OptParserEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\Record.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\RegisterInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\SubtargetEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\TGLexer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\TGParser.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\TGValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\TableGen.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\TableGenBackend.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\X86DisassemblerTables.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\utils\TableGen\X86RecognizableInstr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

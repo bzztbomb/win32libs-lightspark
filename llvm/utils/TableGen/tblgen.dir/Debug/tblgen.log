@@ -1,0 +1,128 @@
+﻿Build started 7/26/2010 1:09:57 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\utils\TableGen\tblgen.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "tblgen.dir\Debug\tblgen.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/utils/TableGen/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\utils\TableGen\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"tblgen.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/bin/Debug/tblgen.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt AsmMatcherEmitter.cpp AsmWriterEmitter.cpp AsmWriterInst.cpp CallingConvEmitter.cpp ClangDiagnosticsEmitter.cpp CodeEmitterGen.cpp CodeGenDAGPatterns.cpp CodeGenInstruction.cpp CodeGenTarget.cpp DAGISelEmitter.cpp DAGISelMatcherEmitter.cpp DAGISelMatcherGen.cpp DAGISelMatcherOpt.cpp DAGISelMatcher.cpp DisassemblerEmitter.cpp EDEmitter.cpp FastISelEmitter.cpp InstrEnumEmitter.cpp InstrInfoEmitter.cpp IntrinsicEmitter.cpp LLVMCConfigurationEmitter.cpp OptParserEmitter.cpp Record.cpp RegisterInfoEmitter.cpp SubtargetEmitter.cpp TGLexer.cpp TGParser.cpp TGValueTypes.cpp TableGen.cpp TableGenBackend.cpp X86DisassemblerTables.cpp X86RecognizableInstr.cpp  /Zm1000 
+         AsmMatcherEmitter.cpp
+         AsmWriterEmitter.cpp
+         AsmWriterInst.cpp
+         CallingConvEmitter.cpp
+         ClangDiagnosticsEmitter.cpp
+         CodeEmitterGen.cpp
+         CodeGenDAGPatterns.cpp
+         CodeGenInstruction.cpp
+         CodeGenTarget.cpp
+         DAGISelEmitter.cpp
+         DAGISelMatcherEmitter.cpp
+         DAGISelMatcherGen.cpp
+         DAGISelMatcherOpt.cpp
+         DAGISelMatcher.cpp
+         DisassemblerEmitter.cpp
+         EDEmitter.cpp
+         FastISelEmitter.cpp
+         InstrEnumEmitter.cpp
+         InstrInfoEmitter.cpp
+         IntrinsicEmitter.cpp
+         Generating Code...
+         Compiling...
+         LLVMCConfigurationEmitter.cpp
+         OptParserEmitter.cpp
+         Record.cpp
+         RegisterInfoEmitter.cpp
+         SubtargetEmitter.cpp
+         TGLexer.cpp
+         TGParser.cpp
+         TGValueTypes.cpp
+         TableGen.cpp
+         TableGenBackend.cpp
+         X86DisassemblerTables.cpp
+         X86RecognizableInstr.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"tblgen.dir\Debug\tblgen.exe.embed.manifest.res" tblgen.dir\Debug\tblgen_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\tblgen.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\LLVMSupport.lib ..\..\lib\Debug\LLVMSystem.lib /MANIFEST /ManifestFile:"tblgen.dir\Debug\tblgen.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\tblgen.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/tblgen.lib" /MACHINE:X86 tblgen.dir\Debug\tblgen.exe.embed.manifest.res
+         tblgen.dir\Debug\AsmMatcherEmitter.obj
+         tblgen.dir\Debug\AsmWriterEmitter.obj
+         tblgen.dir\Debug\AsmWriterInst.obj
+         tblgen.dir\Debug\CallingConvEmitter.obj
+         tblgen.dir\Debug\ClangDiagnosticsEmitter.obj
+         tblgen.dir\Debug\CodeEmitterGen.obj
+         tblgen.dir\Debug\CodeGenDAGPatterns.obj
+         tblgen.dir\Debug\CodeGenInstruction.obj
+         tblgen.dir\Debug\CodeGenTarget.obj
+         tblgen.dir\Debug\DAGISelEmitter.obj
+         tblgen.dir\Debug\DAGISelMatcherEmitter.obj
+         tblgen.dir\Debug\DAGISelMatcherGen.obj
+         tblgen.dir\Debug\DAGISelMatcherOpt.obj
+         tblgen.dir\Debug\DAGISelMatcher.obj
+         tblgen.dir\Debug\DisassemblerEmitter.obj
+         tblgen.dir\Debug\EDEmitter.obj
+         tblgen.dir\Debug\FastISelEmitter.obj
+         tblgen.dir\Debug\InstrEnumEmitter.obj
+         tblgen.dir\Debug\InstrInfoEmitter.obj
+         tblgen.dir\Debug\IntrinsicEmitter.obj
+         tblgen.dir\Debug\LLVMCConfigurationEmitter.obj
+         tblgen.dir\Debug\OptParserEmitter.obj
+         tblgen.dir\Debug\Record.obj
+         tblgen.dir\Debug\RegisterInfoEmitter.obj
+         tblgen.dir\Debug\SubtargetEmitter.obj
+         tblgen.dir\Debug\TGLexer.obj
+         tblgen.dir\Debug\TGParser.obj
+         tblgen.dir\Debug\TGValueTypes.obj
+         tblgen.dir\Debug\TableGen.obj
+         tblgen.dir\Debug\TableGenBackend.obj
+         tblgen.dir\Debug\X86DisassemblerTables.obj
+         tblgen.dir\Debug\X86RecognizableInstr.obj  /machine:X86 /debug 
+            Creating library C:/Users/skinny/projects/lightspark/llvm/lib/Debug/tblgen.lib and object C:/Users/skinny/projects/lightspark/llvm/lib/Debug/tblgen.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"tblgen.dir\Debug\tblgen.exe.embed.manifest" /manifest tblgen.dir\Debug\tblgen.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"tblgen.dir\Debug\tblgen.exe.embed.manifest.res" tblgen.dir\Debug\tblgen_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\tblgen.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\LLVMSupport.lib ..\..\lib\Debug\LLVMSystem.lib /MANIFEST /ManifestFile:"tblgen.dir\Debug\tblgen.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\tblgen.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/tblgen.lib" /MACHINE:X86 tblgen.dir\Debug\tblgen.exe.embed.manifest.res
+         tblgen.dir\Debug\AsmMatcherEmitter.obj
+         tblgen.dir\Debug\AsmWriterEmitter.obj
+         tblgen.dir\Debug\AsmWriterInst.obj
+         tblgen.dir\Debug\CallingConvEmitter.obj
+         tblgen.dir\Debug\ClangDiagnosticsEmitter.obj
+         tblgen.dir\Debug\CodeEmitterGen.obj
+         tblgen.dir\Debug\CodeGenDAGPatterns.obj
+         tblgen.dir\Debug\CodeGenInstruction.obj
+         tblgen.dir\Debug\CodeGenTarget.obj
+         tblgen.dir\Debug\DAGISelEmitter.obj
+         tblgen.dir\Debug\DAGISelMatcherEmitter.obj
+         tblgen.dir\Debug\DAGISelMatcherGen.obj
+         tblgen.dir\Debug\DAGISelMatcherOpt.obj
+         tblgen.dir\Debug\DAGISelMatcher.obj
+         tblgen.dir\Debug\DisassemblerEmitter.obj
+         tblgen.dir\Debug\EDEmitter.obj
+         tblgen.dir\Debug\FastISelEmitter.obj
+         tblgen.dir\Debug\InstrEnumEmitter.obj
+         tblgen.dir\Debug\InstrInfoEmitter.obj
+         tblgen.dir\Debug\IntrinsicEmitter.obj
+         tblgen.dir\Debug\LLVMCConfigurationEmitter.obj
+         tblgen.dir\Debug\OptParserEmitter.obj
+         tblgen.dir\Debug\Record.obj
+         tblgen.dir\Debug\RegisterInfoEmitter.obj
+         tblgen.dir\Debug\SubtargetEmitter.obj
+         tblgen.dir\Debug\TGLexer.obj
+         tblgen.dir\Debug\TGParser.obj
+         tblgen.dir\Debug\TGValueTypes.obj
+         tblgen.dir\Debug\TableGen.obj
+         tblgen.dir\Debug\TableGenBackend.obj
+         tblgen.dir\Debug\X86DisassemblerTables.obj
+         tblgen.dir\Debug\X86RecognizableInstr.obj  /machine:X86 /debug 
+            Creating library C:/Users/skinny/projects/lightspark/llvm/lib/Debug/tblgen.lib and object C:/Users/skinny/projects/lightspark/llvm/lib/Debug/tblgen.exp
+         tblgen.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\bin\Debug\tblgen.exe
+       FinalizeBuildStatus:
+         Deleting file "tblgen.dir\Debug\tblgen.unsuccessfulbuild".
+         Touching "tblgen.dir\Debug\tblgen.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\utils\TableGen\tblgen.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.57

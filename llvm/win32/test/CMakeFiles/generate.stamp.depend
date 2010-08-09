@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/skinny/projects/lightspark/lib/llvm-2.7/test/CMakeLists.txt
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Users/skinny/projects/lightspark/lib/llvm-2.7/test/site.exp.in

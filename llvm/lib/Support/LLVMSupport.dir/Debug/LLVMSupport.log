@@ -1,0 +1,114 @@
+﻿Build started 7/26/2010 1:09:38 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\Support\LLVMSupport.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "LLVMSupport.dir\Debug\LLVMSupport.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/Support/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\lib\Support\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMSupport.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMSupport.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt APFloat.cpp APInt.cpp APSInt.cpp Allocator.cpp circular_raw_ostream.cpp CommandLine.cpp ConstantRange.cpp Debug.cpp DeltaAlgorithm.cpp Dwarf.cpp ErrorHandling.cpp FileUtilities.cpp FoldingSet.cpp FormattedStream.cpp GraphWriter.cpp IsInf.cpp IsNAN.cpp ManagedStatic.cpp MemoryBuffer.cpp MemoryObject.cpp PluginLoader.cpp PrettyStackTrace.cpp Regex.cpp SlowOperationInformer.cpp SmallPtrSet.cpp SmallVector.cpp SourceMgr.cpp Statistic.cpp StringExtras.cpp StringMap.cpp StringPool.cpp StringRef.cpp SystemUtils.cpp TargetRegistry.cpp Timer.cpp Triple.cpp Twine.cpp raw_os_ostream.cpp raw_ostream.cpp  /Zm1000 
+         APFloat.cpp
+         APInt.cpp
+         APSInt.cpp
+         Allocator.cpp
+         circular_raw_ostream.cpp
+         CommandLine.cpp
+         ConstantRange.cpp
+         Debug.cpp
+         DeltaAlgorithm.cpp
+         Dwarf.cpp
+         ErrorHandling.cpp
+         FileUtilities.cpp
+         FoldingSet.cpp
+         FormattedStream.cpp
+         GraphWriter.cpp
+         IsInf.cpp
+         IsNAN.cpp
+         ManagedStatic.cpp
+         MemoryBuffer.cpp
+         MemoryObject.cpp
+         Generating Code...
+         Compiling...
+         PluginLoader.cpp
+         PrettyStackTrace.cpp
+         Regex.cpp
+         SlowOperationInformer.cpp
+         SmallPtrSet.cpp
+         SmallVector.cpp
+         SourceMgr.cpp
+         Statistic.cpp
+         StringExtras.cpp
+         StringMap.cpp
+         StringPool.cpp
+         StringRef.cpp
+         SystemUtils.cpp
+         TargetRegistry.cpp
+         Timer.cpp
+         Triple.cpp
+         Twine.cpp
+         raw_os_ostream.cpp
+         raw_ostream.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMSupport.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMSupport.pdb" /Gd /TC /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt regcomp.c regerror.c regexec.c regfree.c regstrlcpy.c  /Zm1000 
+         regcomp.c
+         regerror.c
+         regexec.c
+     1>c:\users\skinny\projects\lightspark\llvm\lib\support\regengine.inc(188): warning C4090: 'function' : different 'const' qualifiers
+     1>c:\users\skinny\projects\lightspark\llvm\lib\support\regengine.inc(188): warning C4090: 'function' : different 'const' qualifiers
+         regfree.c
+         regstrlcpy.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMSupport.lib" /NOLOGO LLVMSupport.dir\Debug\APFloat.obj
+         LLVMSupport.dir\Debug\APInt.obj
+         LLVMSupport.dir\Debug\APSInt.obj
+         LLVMSupport.dir\Debug\Allocator.obj
+         LLVMSupport.dir\Debug\circular_raw_ostream.obj
+         LLVMSupport.dir\Debug\CommandLine.obj
+         LLVMSupport.dir\Debug\ConstantRange.obj
+         LLVMSupport.dir\Debug\Debug.obj
+         LLVMSupport.dir\Debug\DeltaAlgorithm.obj
+         LLVMSupport.dir\Debug\Dwarf.obj
+         LLVMSupport.dir\Debug\ErrorHandling.obj
+         LLVMSupport.dir\Debug\FileUtilities.obj
+         LLVMSupport.dir\Debug\FoldingSet.obj
+         LLVMSupport.dir\Debug\FormattedStream.obj
+         LLVMSupport.dir\Debug\GraphWriter.obj
+         LLVMSupport.dir\Debug\IsInf.obj
+         LLVMSupport.dir\Debug\IsNAN.obj
+         LLVMSupport.dir\Debug\ManagedStatic.obj
+         LLVMSupport.dir\Debug\MemoryBuffer.obj
+         LLVMSupport.dir\Debug\MemoryObject.obj
+         LLVMSupport.dir\Debug\PluginLoader.obj
+         LLVMSupport.dir\Debug\PrettyStackTrace.obj
+         LLVMSupport.dir\Debug\Regex.obj
+         LLVMSupport.dir\Debug\SlowOperationInformer.obj
+         LLVMSupport.dir\Debug\SmallPtrSet.obj
+         LLVMSupport.dir\Debug\SmallVector.obj
+         LLVMSupport.dir\Debug\SourceMgr.obj
+         LLVMSupport.dir\Debug\Statistic.obj
+         LLVMSupport.dir\Debug\StringExtras.obj
+         LLVMSupport.dir\Debug\StringMap.obj
+         LLVMSupport.dir\Debug\StringPool.obj
+         LLVMSupport.dir\Debug\StringRef.obj
+         LLVMSupport.dir\Debug\SystemUtils.obj
+         LLVMSupport.dir\Debug\TargetRegistry.obj
+         LLVMSupport.dir\Debug\Timer.obj
+         LLVMSupport.dir\Debug\Triple.obj
+         LLVMSupport.dir\Debug\Twine.obj
+         LLVMSupport.dir\Debug\raw_os_ostream.obj
+         LLVMSupport.dir\Debug\raw_ostream.obj
+         LLVMSupport.dir\Debug\regcomp.obj
+         LLVMSupport.dir\Debug\regerror.obj
+         LLVMSupport.dir\Debug\regexec.obj
+         LLVMSupport.dir\Debug\regfree.obj
+         LLVMSupport.dir\Debug\regstrlcpy.obj
+         LLVMSupport.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMSupport.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMSupport.dir\Debug\LLVMSupport.unsuccessfulbuild".
+         Touching "LLVMSupport.dir\Debug\LLVMSupport.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\Support\LLVMSupport.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.33

@@ -1,0 +1,718 @@
+﻿Build started 7/26/2010 4:10:34 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\curl-7.20.1\src\curl.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "curl.dir\Debug\curl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/curl-7.20.1/src/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\curl-7.20.1\src\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/Users/skinny/projects/lightspark/curl-7.20.1/include/curl" /I"C:/Users/skinny/projects/lightspark/curl-7.20.1/include" /I"C:/Users/skinny/projects/lightspark/curl-7.20.1/lib" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D _WIN32_WINNT=0x0501 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"curl.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/curl-7.20.1/src/Debug/../curl.pdb" /Gd /TC /analyze- /errorReport:prompt main.c hugehelp.c urlglob.c writeout.c writeenv.c getpass.c homedir.c curlutil.c "os-specific.c" ..\lib\strtoofft.c ..\lib\strdup.c ..\lib\rawstr.c ..\lib\nonblock.c  /Zm1000 
+         main.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+     1>main.c(3438): warning C4244: 'function' : conversion from 'curl_off_t' to 'long', possible loss of data
+         hugehelp.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         urlglob.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         writeout.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         writeenv.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         getpass.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         homedir.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         curlutil.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         os-specific.c
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>C:\Users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         strtoofft.c
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         strdup.c
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         rawstr.c
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         nonblock.c
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(376): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(377): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(378): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(379): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(380): warning C4005: 'EDESTADDRREQ' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(101) : see previous definition of 'EDESTADDRREQ'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(381): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(382): warning C4005: 'EPROTOTYPE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(128) : see previous definition of 'EPROTOTYPE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(383): warning C4005: 'ENOPROTOOPT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(115) : see previous definition of 'ENOPROTOOPT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(384): warning C4005: 'EPROTONOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(127) : see previous definition of 'EPROTONOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(386): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(388): warning C4005: 'EAFNOSUPPORT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(94) : see previous definition of 'EAFNOSUPPORT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(389): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(390): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(391): warning C4005: 'ENETDOWN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(108) : see previous definition of 'ENETDOWN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(392): warning C4005: 'ENETUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(110) : see previous definition of 'ENETUNREACH'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(393): warning C4005: 'ENETRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(109) : see previous definition of 'ENETRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(394): warning C4005: 'ECONNABORTED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(98) : see previous definition of 'ECONNABORTED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(395): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(396): warning C4005: 'ENOBUFS' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(397): warning C4005: 'EISCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(105) : see previous definition of 'EISCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(398): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(401): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(402): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(403): warning C4005: 'ELOOP' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(106) : see previous definition of 'ELOOP'
+     1>c:\users\skinny\projects\lightspark\curl-7.20.1\lib\setup_once.h(408): warning C4005: 'EHOSTUNREACH' : macro redefinition
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h(102) : see previous definition of 'EHOSTUNREACH'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"curl.dir\Debug\curl.exe.embed.manifest.res" curl.dir\Debug\curl_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\curl-7.20.1\src\Debug\curl.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wsock32.lib ws2_32.lib ..\lib\Debug\..\libcurl_imp.lib ws2_32.lib winmm.lib /MANIFEST /ManifestFile:"curl.dir\Debug\curl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\curl-7.20.1\src\Debug\curl.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/curl-7.20.1/src/Debug/curl.lib" /MACHINE:X86 curl.dir\Debug\curl.exe.embed.manifest.res
+         curl.dir\Debug\main.obj
+         curl.dir\Debug\hugehelp.obj
+         curl.dir\Debug\urlglob.obj
+         curl.dir\Debug\writeout.obj
+         curl.dir\Debug\writeenv.obj
+         curl.dir\Debug\getpass.obj
+         curl.dir\Debug\homedir.obj
+         curl.dir\Debug\curlutil.obj
+         "curl.dir\Debug\os-specific.obj"
+         curl.dir\Debug\strtoofft.obj
+         curl.dir\Debug\strdup.obj
+         curl.dir\Debug\rawstr.obj
+         curl.dir\Debug\nonblock.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"curl.dir\Debug\curl.exe.embed.manifest" /manifest curl.dir\Debug\curl.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"curl.dir\Debug\curl.exe.embed.manifest.res" curl.dir\Debug\curl_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\curl-7.20.1\src\Debug\curl.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wsock32.lib ws2_32.lib ..\lib\Debug\..\libcurl_imp.lib ws2_32.lib winmm.lib /MANIFEST /ManifestFile:"curl.dir\Debug\curl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\curl-7.20.1\src\Debug\curl.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/curl-7.20.1/src/Debug/curl.lib" /MACHINE:X86 curl.dir\Debug\curl.exe.embed.manifest.res
+         curl.dir\Debug\main.obj
+         curl.dir\Debug\hugehelp.obj
+         curl.dir\Debug\urlglob.obj
+         curl.dir\Debug\writeout.obj
+         curl.dir\Debug\writeenv.obj
+         curl.dir\Debug\getpass.obj
+         curl.dir\Debug\homedir.obj
+         curl.dir\Debug\curlutil.obj
+         "curl.dir\Debug\os-specific.obj"
+         curl.dir\Debug\strtoofft.obj
+         curl.dir\Debug\strdup.obj
+         curl.dir\Debug\rawstr.obj
+         curl.dir\Debug\nonblock.obj  /machine:X86 /debug 
+         curl.vcxproj -> C:\Users\skinny\projects\lightspark\curl-7.20.1\src\Debug\curl.exe
+       FinalizeBuildStatus:
+         Deleting file "curl.dir\Debug\curl.unsuccessfulbuild".
+         Touching "curl.dir\Debug\curl.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\curl-7.20.1\src\curl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.26

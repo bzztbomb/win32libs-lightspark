@@ -1,0 +1,48 @@
+﻿Build started 7/26/2010 1:28:35 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\tools\bugpoint\bugpoint.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "bugpoint.dir\Debug\bugpoint.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\bugpoint.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\LLVMAsmParser.lib ..\..\lib\Debug\LLVMInstrumentation.lib ..\..\lib\Debug\LLVMScalarOpts.lib ..\..\lib\Debug\LLVMipo.lib ..\..\lib\Debug\LLVMLinker.lib ..\..\lib\Debug\LLVMBitWriter.lib ..\..\lib\Debug\LLVMInstCombine.lib ..\..\lib\Debug\LLVMArchive.lib ..\..\lib\Debug\LLVMTransformUtils.lib ..\..\lib\Debug\LLVMBitReader.lib ..\..\lib\Debug\LLVMipa.lib ..\..\lib\Debug\LLVMAnalysis.lib ..\..\lib\Debug\LLVMTarget.lib ..\..\lib\Debug\LLVMCore.lib ..\..\lib\Debug\LLVMMC.lib ..\..\lib\Debug\LLVMSupport.lib ..\..\lib\Debug\LLVMSystem.lib /MANIFEST /ManifestFile:"bugpoint.dir\Debug\bugpoint.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\bugpoint.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/bugpoint.lib" /MACHINE:X86 bugpoint.dir\Debug\bugpoint.exe.embed.manifest.res
+         bugpoint.dir\Debug\BugDriver.obj
+         bugpoint.dir\Debug\CrashDebugger.obj
+         bugpoint.dir\Debug\ExecutionDriver.obj
+         bugpoint.dir\Debug\ExtractFunction.obj
+         bugpoint.dir\Debug\FindBugs.obj
+         bugpoint.dir\Debug\Miscompilation.obj
+         bugpoint.dir\Debug\OptimizerDriver.obj
+         bugpoint.dir\Debug\TestPasses.obj
+         bugpoint.dir\Debug\ToolRunner.obj
+         bugpoint.dir\Debug\bugpoint.obj  /machine:X86 /debug 
+            Creating library C:/Users/skinny/projects/lightspark/llvm/lib/Debug/bugpoint.lib and object C:/Users/skinny/projects/lightspark/llvm/lib/Debug/bugpoint.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"bugpoint.dir\Debug\bugpoint.exe.embed.manifest" /manifest bugpoint.dir\Debug\bugpoint.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"bugpoint.dir\Debug\bugpoint.exe.embed.manifest.res" bugpoint.dir\Debug\bugpoint_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\bugpoint.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\LLVMAsmParser.lib ..\..\lib\Debug\LLVMInstrumentation.lib ..\..\lib\Debug\LLVMScalarOpts.lib ..\..\lib\Debug\LLVMipo.lib ..\..\lib\Debug\LLVMLinker.lib ..\..\lib\Debug\LLVMBitWriter.lib ..\..\lib\Debug\LLVMInstCombine.lib ..\..\lib\Debug\LLVMArchive.lib ..\..\lib\Debug\LLVMTransformUtils.lib ..\..\lib\Debug\LLVMBitReader.lib ..\..\lib\Debug\LLVMipa.lib ..\..\lib\Debug\LLVMAnalysis.lib ..\..\lib\Debug\LLVMTarget.lib ..\..\lib\Debug\LLVMCore.lib ..\..\lib\Debug\LLVMMC.lib ..\..\lib\Debug\LLVMSupport.lib ..\..\lib\Debug\LLVMSystem.lib /MANIFEST /ManifestFile:"bugpoint.dir\Debug\bugpoint.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\llvm\bin\Debug\bugpoint.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/bugpoint.lib" /MACHINE:X86 bugpoint.dir\Debug\bugpoint.exe.embed.manifest.res
+         bugpoint.dir\Debug\BugDriver.obj
+         bugpoint.dir\Debug\CrashDebugger.obj
+         bugpoint.dir\Debug\ExecutionDriver.obj
+         bugpoint.dir\Debug\ExtractFunction.obj
+         bugpoint.dir\Debug\FindBugs.obj
+         bugpoint.dir\Debug\Miscompilation.obj
+         bugpoint.dir\Debug\OptimizerDriver.obj
+         bugpoint.dir\Debug\TestPasses.obj
+         bugpoint.dir\Debug\ToolRunner.obj
+         bugpoint.dir\Debug\bugpoint.obj  /machine:X86 /debug 
+            Creating library C:/Users/skinny/projects/lightspark/llvm/lib/Debug/bugpoint.lib and object C:/Users/skinny/projects/lightspark/llvm/lib/Debug/bugpoint.exp
+         bugpoint.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\bin\Debug\bugpoint.exe
+       FinalizeBuildStatus:
+         Deleting file "bugpoint.dir\Debug\bugpoint.unsuccessfulbuild".
+         Touching "bugpoint.dir\Debug\bugpoint.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\tools\bugpoint\bugpoint.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.62

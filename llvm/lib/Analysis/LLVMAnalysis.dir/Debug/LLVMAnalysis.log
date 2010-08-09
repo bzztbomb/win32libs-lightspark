@@ -1,0 +1,108 @@
+﻿Build started 7/26/2010 1:11:33 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\Analysis\LLVMAnalysis.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "LLVMAnalysis.dir\Debug\LLVMAnalysis.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/Analysis/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\lib\Analysis\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMAnalysis.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMAnalysis.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt AliasAnalysis.cpp AliasAnalysisCounter.cpp AliasAnalysisEvaluator.cpp AliasDebugger.cpp AliasSetTracker.cpp Analysis.cpp BasicAliasAnalysis.cpp CFGPrinter.cpp CaptureTracking.cpp ConstantFolding.cpp DbgInfoPrinter.cpp DebugInfo.cpp DomPrinter.cpp IVUsers.cpp InlineCost.cpp InstCount.cpp InstructionSimplify.cpp Interval.cpp IntervalPartition.cpp LazyValueInfo.cpp LibCallAliasAnalysis.cpp LibCallSemantics.cpp LiveValues.cpp LoopDependenceAnalysis.cpp LoopInfo.cpp LoopPass.cpp MemoryBuiltins.cpp MemoryDependenceAnalysis.cpp PHITransAddr.cpp PointerTracking.cpp PostDominators.cpp ProfileEstimatorPass.cpp ProfileInfo.cpp ProfileInfoLoader.cpp ProfileInfoLoaderPass.cpp ProfileVerifierPass.cpp ScalarEvolution.cpp ScalarEvolutionAliasAnalysis.cpp ScalarEvolutionExpander.cpp SparsePropagation.cpp Trace.cpp ValueTracking.cpp  /Zm1000 
+         AliasAnalysis.cpp
+         AliasAnalysisCounter.cpp
+         AliasAnalysisEvaluator.cpp
+         AliasDebugger.cpp
+         AliasSetTracker.cpp
+         Analysis.cpp
+         BasicAliasAnalysis.cpp
+         CFGPrinter.cpp
+         CaptureTracking.cpp
+         ConstantFolding.cpp
+         DbgInfoPrinter.cpp
+         DebugInfo.cpp
+         DomPrinter.cpp
+         IVUsers.cpp
+         InlineCost.cpp
+         InstCount.cpp
+         InstructionSimplify.cpp
+         Interval.cpp
+         IntervalPartition.cpp
+         LazyValueInfo.cpp
+         Generating Code...
+         Compiling...
+         LibCallAliasAnalysis.cpp
+         LibCallSemantics.cpp
+         LiveValues.cpp
+         LoopDependenceAnalysis.cpp
+         LoopInfo.cpp
+         LoopPass.cpp
+         MemoryBuiltins.cpp
+         MemoryDependenceAnalysis.cpp
+         PHITransAddr.cpp
+         PointerTracking.cpp
+         PostDominators.cpp
+         ProfileEstimatorPass.cpp
+         ProfileInfo.cpp
+         ProfileInfoLoader.cpp
+         ProfileInfoLoaderPass.cpp
+         ProfileVerifierPass.cpp
+         ScalarEvolution.cpp
+         ScalarEvolutionAliasAnalysis.cpp
+         ScalarEvolutionExpander.cpp
+         SparsePropagation.cpp
+         Generating Code...
+         Compiling...
+         Trace.cpp
+         ValueTracking.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMAnalysis.lib" /NOLOGO LLVMAnalysis.dir\Debug\AliasAnalysis.obj
+         LLVMAnalysis.dir\Debug\AliasAnalysisCounter.obj
+         LLVMAnalysis.dir\Debug\AliasAnalysisEvaluator.obj
+         LLVMAnalysis.dir\Debug\AliasDebugger.obj
+         LLVMAnalysis.dir\Debug\AliasSetTracker.obj
+         LLVMAnalysis.dir\Debug\Analysis.obj
+         LLVMAnalysis.dir\Debug\BasicAliasAnalysis.obj
+         LLVMAnalysis.dir\Debug\CFGPrinter.obj
+         LLVMAnalysis.dir\Debug\CaptureTracking.obj
+         LLVMAnalysis.dir\Debug\ConstantFolding.obj
+         LLVMAnalysis.dir\Debug\DbgInfoPrinter.obj
+         LLVMAnalysis.dir\Debug\DebugInfo.obj
+         LLVMAnalysis.dir\Debug\DomPrinter.obj
+         LLVMAnalysis.dir\Debug\IVUsers.obj
+         LLVMAnalysis.dir\Debug\InlineCost.obj
+         LLVMAnalysis.dir\Debug\InstCount.obj
+         LLVMAnalysis.dir\Debug\InstructionSimplify.obj
+         LLVMAnalysis.dir\Debug\Interval.obj
+         LLVMAnalysis.dir\Debug\IntervalPartition.obj
+         LLVMAnalysis.dir\Debug\LazyValueInfo.obj
+         LLVMAnalysis.dir\Debug\LibCallAliasAnalysis.obj
+         LLVMAnalysis.dir\Debug\LibCallSemantics.obj
+         LLVMAnalysis.dir\Debug\LiveValues.obj
+         LLVMAnalysis.dir\Debug\LoopDependenceAnalysis.obj
+         LLVMAnalysis.dir\Debug\LoopInfo.obj
+         LLVMAnalysis.dir\Debug\LoopPass.obj
+         LLVMAnalysis.dir\Debug\MemoryBuiltins.obj
+         LLVMAnalysis.dir\Debug\MemoryDependenceAnalysis.obj
+         LLVMAnalysis.dir\Debug\PHITransAddr.obj
+         LLVMAnalysis.dir\Debug\PointerTracking.obj
+         LLVMAnalysis.dir\Debug\PostDominators.obj
+         LLVMAnalysis.dir\Debug\ProfileEstimatorPass.obj
+         LLVMAnalysis.dir\Debug\ProfileInfo.obj
+         LLVMAnalysis.dir\Debug\ProfileInfoLoader.obj
+         LLVMAnalysis.dir\Debug\ProfileInfoLoaderPass.obj
+         LLVMAnalysis.dir\Debug\ProfileVerifierPass.obj
+         LLVMAnalysis.dir\Debug\ScalarEvolution.obj
+         LLVMAnalysis.dir\Debug\ScalarEvolutionAliasAnalysis.obj
+         LLVMAnalysis.dir\Debug\ScalarEvolutionExpander.obj
+         LLVMAnalysis.dir\Debug\SparsePropagation.obj
+         LLVMAnalysis.dir\Debug\Trace.obj
+         LLVMAnalysis.dir\Debug\ValueTracking.obj
+         LLVMAnalysis.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMAnalysis.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMAnalysis.dir\Debug\LLVMAnalysis.unsuccessfulbuild".
+         Touching "LLVMAnalysis.dir\Debug\LLVMAnalysis.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\Analysis\LLVMAnalysis.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:51.20

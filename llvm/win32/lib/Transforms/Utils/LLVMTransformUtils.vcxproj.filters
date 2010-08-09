@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\AddrModeMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\BasicBlockUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\BasicInliner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\BreakCriticalEdges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\BuildLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\CloneFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\CloneLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\CloneModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\CodeExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\DemoteRegToStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\InlineFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\InstructionNamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\LCSSA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\Local.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\LoopSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\LoopUnroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\LowerInvoke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\LowerSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\Mem2Reg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\PromoteMemoryToRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\SSAUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\SSI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\SimplifyCFG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\UnifyFunctionExitNodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Transforms\Utils\ValueMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\lib\Transforms\Utils\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\lib\Transforms\Utils\AddrModeMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\BasicBlockUtils.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\BasicInliner.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\BreakCriticalEdges.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\BuildLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\CloneFunction.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\CloneLoop.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\CloneModule.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\CodeExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\DemoteRegToStack.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\InlineFunction.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\InstructionNamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\LCSSA.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\Local.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\LoopSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\LoopUnroll.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\LowerInvoke.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\LowerSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\Mem2Reg.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\PromoteMemoryToRegister.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\SSAUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\SSI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\SimplifyCFG.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\UnifyFunctionExitNodes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\lib\Transforms\Utils\ValueMapper.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

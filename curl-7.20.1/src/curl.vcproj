@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="curl"
+	ProjectGUID="{5DB4FFD8-F592-41F7-BB42-4A58E1F185D9}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="curl.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				BasicRuntimeChecks="3"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Open Source/lightspark/curl-7.20.1/src/Debug/../curl.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,_DEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;Debug\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wsock32.lib ws2_32.lib ..\lib\Debug\..\libcurl_imp.lib ws2_32.lib winmm.lib "
+				OutputFile="C:\Open Source\lightspark\curl-7.20.1\src\Debug\..\curl.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDataBaseFile="C:/Open Source/lightspark/curl-7.20.1/src/Debug/../curl.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="C:\Open Source\lightspark\curl-7.20.1\src\Debug\curl.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="curl.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Open Source/lightspark/curl-7.20.1/src/Release/../curl.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;Release\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wsock32.lib ws2_32.lib ..\lib\Release\..\libcurl_imp.lib ws2_32.lib winmm.lib "
+				OutputFile="C:\Open Source\lightspark\curl-7.20.1\src\Release\..\curl.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDataBaseFile="C:/Open Source/lightspark/curl-7.20.1/src/Release/../curl.pdb"
+				SubSystem="1"
+				ImportLibrary="C:\Open Source\lightspark\curl-7.20.1\src\Release\curl.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="curl.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Open Source/lightspark/curl-7.20.1/src/MinSizeRel/../curl.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wsock32.lib ws2_32.lib ..\lib\MinSizeRel\..\libcurl_imp.lib ws2_32.lib winmm.lib "
+				OutputFile="C:\Open Source\lightspark\curl-7.20.1\src\MinSizeRel\..\curl.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDataBaseFile="C:/Open Source/lightspark/curl-7.20.1/src/MinSizeRel/../curl.pdb"
+				SubSystem="1"
+				ImportLibrary="C:\Open Source\lightspark\curl-7.20.1\src\MinSizeRel\curl.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="curl.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:/Open Source/lightspark/curl-7.20.1/src/RelWithDebInfo/../curl.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Open Source\lightspark\curl-7.20.1\include\curl&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\include&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\lib&quot;;"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="WIN32,_WINDOWS,NDEBUG,HAVE_CONFIG_H,_WIN32_WINNT=0x0501,_CRT_SECURE_NO_DEPRECATE,_CRT_NONSTDC_NO_DEPRECATE,CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions=" /STACK:10000000 /machine:I386 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wsock32.lib ws2_32.lib ..\lib\RelWithDebInfo\..\libcurl_imp.lib ws2_32.lib winmm.lib "
+				OutputFile="C:\Open Source\lightspark\curl-7.20.1\src\RelWithDebInfo\..\curl.exe"
+				Version="0.0"
+				GenerateManifest="TRUE"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDataBaseFile="C:/Open Source/lightspark/curl-7.20.1/src/RelWithDebInfo/../curl.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="C:\Open Source\lightspark\curl-7.20.1\src\RelWithDebInfo\curl.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Open Source/lightspark/curl-7.20.1/src/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Open Source/lightspark/curl-7.20.1&quot; &quot;-BC:/Open Source/lightspark/curl-7.20.1&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\Makefile.inc.cmake&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Open Source/lightspark/curl-7.20.1/src/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Open Source/lightspark/curl-7.20.1&quot; &quot;-BC:/Open Source/lightspark/curl-7.20.1&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\Makefile.inc.cmake&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Open Source/lightspark/curl-7.20.1/src/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Open Source/lightspark/curl-7.20.1&quot; &quot;-BC:/Open Source/lightspark/curl-7.20.1&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\Makefile.inc.cmake&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Open Source/lightspark/curl-7.20.1/src/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake 2.6\bin\cmake.exe&quot; &quot;-HC:/Open Source/lightspark/curl-7.20.1&quot; &quot;-BC:/Open Source/lightspark/curl-7.20.1&quot; --check-stamp-file CMakeFiles/generate.stamp"
+					AdditionalDependencies="&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\Makefile.inc.cmake&quot;;&quot;C:\Open Source\lightspark\curl-7.20.1\src\CMakeLists.txt&quot;;"
+					Outputs="CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="cURLX source files"
+			Filter="">
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\lib\strtoofft.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\lib\strdup.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\lib\rawstr.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\lib\nonblock.c">
+			</File>
+		</Filter>
+		<Filter
+			Name="cURL source files"
+			Filter="">
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\main.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\hugehelp.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\urlglob.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\writeout.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\writeenv.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\getpass.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\homedir.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\curlutil.c">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\os-specific.c">
+			</File>
+		</Filter>
+		<Filter
+			Name="cURL header files"
+			Filter="">
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\hugehelp.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\setup.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\config-win32.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\config-mac.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\config-riscos.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\urlglob.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\version.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\os-specific.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\writeout.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\writeenv.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\getpass.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\homedir.h">
+			</File>
+			<File
+				RelativePath="C:\Open Source\lightspark\curl-7.20.1\src\curlutil.h">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\lib\Support\APFloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\APInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\APSInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\circular_raw_ostream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\CommandLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\ConstantRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\DeltaAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Dwarf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\ErrorHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\FileUtilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\FoldingSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\FormattedStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\GraphWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\IsInf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\IsNAN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\ManagedStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\MemoryBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\MemoryObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\PluginLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\PrettyStackTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Regex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\SlowOperationInformer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\SmallPtrSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\SmallVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\SourceMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Statistic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\StringExtras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\StringMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\StringPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\StringRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\SystemUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\TargetRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Triple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\Twine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\raw_os_ostream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\raw_ostream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\regcomp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\regerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\regexec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\regfree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\Support\regstrlcpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\lib\Support\regcclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\Support\regcname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\Support\regex2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\Support\regex_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\Support\regutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\lib\Support\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9449695A-4355-4BFC-BDF3-F3902C02DEC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\lib\Support\APFloat.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\APInt.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\APSInt.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Allocator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\circular_raw_ostream.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\CommandLine.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\ConstantRange.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Debug.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\DeltaAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Dwarf.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\ErrorHandling.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\FileUtilities.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\FoldingSet.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\FormattedStream.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\GraphWriter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\IsInf.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\IsNAN.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\ManagedStatic.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\MemoryBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\MemoryObject.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\PluginLoader.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\PrettyStackTrace.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Regex.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\SlowOperationInformer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\SmallPtrSet.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\SmallVector.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\SourceMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Statistic.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\StringExtras.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\StringMap.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\StringPool.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\StringRef.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\SystemUtils.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\TargetRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Triple.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\Twine.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\raw_os_ostream.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\raw_ostream.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\regcomp.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\regerror.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\regexec.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\regfree.c">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\Support\regstrlcpy.c">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

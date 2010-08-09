@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/skinny/projects/lightspark/curl-7.20.1/lib/CMakeLists.txt
+C:/Users/skinny/projects/lightspark/curl-7.20.1/include/curl/curlbuild.h.cmake
+C:/Users/skinny/projects/lightspark/curl-7.20.1/lib/curl_config.h.cmake
+C:/Users/skinny/projects/lightspark/curl-7.20.1/lib/Makefile.inc.cmake

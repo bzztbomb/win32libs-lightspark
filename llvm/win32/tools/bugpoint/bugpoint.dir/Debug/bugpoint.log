@@ -1,0 +1,34 @@
+﻿Build started 7/26/2010 12:03:48 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\win32\tools\bugpoint\bugpoint.vcxproj" on node 3 (build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/System/LLVMSystem.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include/llvm/intrinsics_gen.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/VMCore/LLVMCore.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Bitcode/Reader/LLVMBitReader.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Bitcode/Writer/LLVMBitWriter.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/Utils/LLVMTransformUtils.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/Instrumentation/LLVMInstrumentation.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/InstCombine/LLVMInstCombine.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/Scalar/LLVMScalarOpts.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/IPO/LLVMipo.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Support/LLVMSupport.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Linker/LLVMLinker.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Analysis/LLVMAnalysis.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Analysis/IPA/LLVMipa.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/MC/LLVMMC.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/LLVMTarget.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/AsmParser/LLVMAsmParser.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Archive/LLVMArchive.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/ZERO_CHECK.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         Touching "bugpoint.dir\Debug\bugpoint.unsuccessfulbuild".
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/bugpoint/CMakeLists.txt
+         CMake is re-running because C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\bugpoint\CMakeFiles\generate.stamp dependency file is missing.
+     1>CUSTOMBUILD : CMake error : The source directory "C:/Users/skinny/projects/lightspark/lib/llvm-2.7" does not appear to contain CMakeLists.txt.
+         Specify --help for usage, or press the help button on the CMake GUI.
+         The system cannot find the batch label specified - VCReportError
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\win32\tools\bugpoint\bugpoint.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17

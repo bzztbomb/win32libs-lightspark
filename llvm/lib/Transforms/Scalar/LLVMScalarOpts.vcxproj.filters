@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ABCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ADCE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBlockPlacement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGenPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadStoreElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GEPSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GVN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndVarSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpThreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LICM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopDeletion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopIndexSplit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopRotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopStrengthReduce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopUnrollPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopUnswitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemCpyOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reassociate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reg2Mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCCVN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scalar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScalarReplAggregates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplifyCFGPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplifyHalfPowrLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplifyLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TailDuplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TailRecursionElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ABCD.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ADCE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="BasicBlockPlacement.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CodeGenPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ConstantProp.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DCE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DeadStoreElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GEPSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GVN.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IndVarSimplify.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="JumpThreading.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LICM.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopDeletion.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopIndexSplit.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopRotation.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopStrengthReduce.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopUnrollPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopUnswitch.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MemCpyOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Reassociate.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Reg2Mem.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SCCP.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SCCVN.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Scalar.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScalarReplAggregates.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SimplifyCFGPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SimplifyHalfPowrLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SimplifyLibCalls.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TailDuplication.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TailRecursionElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

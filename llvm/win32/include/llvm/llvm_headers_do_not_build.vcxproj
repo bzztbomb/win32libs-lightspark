@@ -1,0 +1,574 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D9F6B06A-3329-4759-A012-A7702796903C}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">llvm_headers_do_not_build.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">llvm_headers_do_not_build</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">llvm_headers_do_not_build.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">llvm_headers_do_not_build</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">llvm_headers_do_not_build.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">llvm_headers_do_not_build</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">llvm_headers_do_not_build.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">llvm_headers_do_not_build</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Debug/llvm_headers_do_not_build.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Release/llvm_headers_do_not_build.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/MinSizeRel/llvm_headers_do_not_build.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/RelWithDebInfo/llvm_headers_do_not_build.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\include\llvm\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include/llvm/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\include\llvm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\include\llvm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\lib\Transforms\Hello\Hello.cpp" />
+    <ClInclude Include="..\..\..\include\llvm\AbstractTypeUser.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\APFloat.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\APInt.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\APSInt.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\BitVector.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\DeltaAlgorithm.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\DenseMap.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\DenseMapInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\DenseSet.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\DepthFirstIterator.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\EquivalenceClasses.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\FoldingSet.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\GraphTraits.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ilist.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ilist_node.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ImmutableIntervalMap.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ImmutableList.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ImmutableMap.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ImmutableSet.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\IndexedMap.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\IntrusiveRefCntPtr.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\OwningPtr.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\PointerIntPair.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\PointerUnion.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\PostOrderIterator.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\PriorityQueue.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SCCIterator.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ScopedHashTable.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SetOperations.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SetVector.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SmallBitVector.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SmallPtrSet.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SmallSet.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SmallString.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SmallVector.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\SparseBitVector.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\Statistic.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\STLExtras.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\StringExtras.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\StringMap.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\StringRef.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\StringSet.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\StringSwitch.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\Trie.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\Triple.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\Twine.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\UniqueVector.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\ValueMap.h" />
+    <ClInclude Include="..\..\..\include\llvm\ADT\VectorExtras.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\AliasAnalysis.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\AliasSetTracker.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\CallGraph.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\CaptureTracking.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\CFGPrinter.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ConstantFolding.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ConstantsScanner.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\DebugInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\DominatorInternals.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\Dominators.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\DomPrinter.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\DOTGraphTraitsPass.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\FindUsedTypes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\InlineCost.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\InstructionSimplify.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\Interval.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\IntervalIterator.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\IntervalPartition.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\IVUsers.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\LazyValueInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\LibCallAliasAnalysis.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\LibCallSemantics.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\LiveValues.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\LoopDependenceAnalysis.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\LoopInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\LoopPass.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\MemoryBuiltins.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\MemoryDependenceAnalysis.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\Passes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\PHITransAddr.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\PointerTracking.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\PostDominators.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ProfileInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ProfileInfoLoader.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ProfileInfoTypes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ScalarEvolution.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ScalarEvolutionExpander.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ScalarEvolutionExpressions.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\SparsePropagation.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\Trace.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\ValueTracking.h" />
+    <ClInclude Include="..\..\..\include\llvm\Analysis\Verifier.h" />
+    <ClInclude Include="..\..\..\include\llvm\Argument.h" />
+    <ClInclude Include="..\..\..\include\llvm\Assembly\AsmAnnotationWriter.h" />
+    <ClInclude Include="..\..\..\include\llvm\Assembly\Parser.h" />
+    <ClInclude Include="..\..\..\include\llvm\Assembly\PrintModulePass.h" />
+    <ClInclude Include="..\..\..\include\llvm\Assembly\Writer.h" />
+    <ClInclude Include="..\..\..\include\llvm\Attributes.h" />
+    <ClInclude Include="..\..\..\include\llvm\AutoUpgrade.h" />
+    <ClInclude Include="..\..\..\include\llvm\BasicBlock.h" />
+    <ClInclude Include="..\..\..\include\llvm\Bitcode\Archive.h" />
+    <ClInclude Include="..\..\..\include\llvm\Bitcode\BitCodes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Bitcode\BitstreamReader.h" />
+    <ClInclude Include="..\..\..\include\llvm\Bitcode\BitstreamWriter.h" />
+    <ClInclude Include="..\..\..\include\llvm\Bitcode\LLVMBitCodes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Bitcode\ReaderWriter.h" />
+    <ClInclude Include="..\..\..\include\llvm\CallGraphSCCPass.h" />
+    <ClInclude Include="..\..\..\include\llvm\CallingConv.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\AsmPrinter.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\BinaryObject.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\CalcSpillWeights.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\CallingConvLower.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\DwarfWriter.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\ELFRelocation.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\FastISel.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\GCMetadata.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\GCMetadataPrinter.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\GCs.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\GCStrategy.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\IntrinsicLowering.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\JITCodeEmitter.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\LatencyPriorityQueue.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\LinkAllAsmWriterComponents.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\LinkAllCodegenComponents.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\LiveInterval.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\LiveIntervalAnalysis.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\LiveStackAnalysis.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\LiveVariables.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineBasicBlock.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineCodeEmitter.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineCodeInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineConstantPool.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineDominators.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineFrameInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineFunction.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineFunctionAnalysis.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineFunctionPass.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineInstr.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineInstrBuilder.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineJumpTableInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineLocation.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineLoopInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineMemOperand.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineModuleInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineModuleInfoImpls.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineOperand.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachinePassRegistry.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineRegisterInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineRelocation.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachineSSAUpdater.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\MachORelocation.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\ObjectCodeEmitter.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\Passes.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\ProcessImplicitDefs.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\PseudoSourceValue.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\RegAllocRegistry.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\RegisterCoalescer.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\RegisterScavenging.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\RuntimeLibcalls.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\ScheduleDAG.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\ScheduleHazardRecognizer.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\SchedulerRegistry.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\SelectionDAG.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\SelectionDAGISel.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\SelectionDAGNodes.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\SlotIndexes.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\TargetLoweringObjectFileImpl.h" />
+    <ClInclude Include="..\..\..\include\llvm\CodeGen\ValueTypes.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\Action.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\BuiltinOptions.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\CompilationGraph.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\Error.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\ForceLinkage.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\ForceLinkageMacros.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\Plugin.h" />
+    <ClInclude Include="..\..\..\include\llvm\CompilerDriver\Tool.h" />
+    <ClInclude Include="..\..\..\include\llvm\Constant.h" />
+    <ClInclude Include="..\..\..\include\llvm\Constants.h" />
+    <ClInclude Include="..\..\..\include\llvm\DerivedTypes.h" />
+    <ClInclude Include="..\..\..\include\llvm\ExecutionEngine\ExecutionEngine.h" />
+    <ClInclude Include="..\..\..\include\llvm\ExecutionEngine\GenericValue.h" />
+    <ClInclude Include="..\..\..\include\llvm\ExecutionEngine\Interpreter.h" />
+    <ClInclude Include="..\..\..\include\llvm\ExecutionEngine\JIT.h" />
+    <ClInclude Include="..\..\..\include\llvm\ExecutionEngine\JITEventListener.h" />
+    <ClInclude Include="..\..\..\include\llvm\ExecutionEngine\JITMemoryManager.h" />
+    <ClInclude Include="..\..\..\include\llvm\Function.h" />
+    <ClInclude Include="..\..\..\include\llvm\GlobalAlias.h" />
+    <ClInclude Include="..\..\..\include\llvm\GlobalValue.h" />
+    <ClInclude Include="..\..\..\include\llvm\GlobalVariable.h" />
+    <ClInclude Include="..\..\..\include\llvm\GVMaterializer.h" />
+    <ClInclude Include="..\..\..\include\llvm\InlineAsm.h" />
+    <ClInclude Include="..\..\..\include\llvm\InstrTypes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Instruction.h" />
+    <ClInclude Include="..\..\..\include\llvm\Instructions.h" />
+    <ClInclude Include="..\..\..\include\llvm\IntrinsicInst.h" />
+    <ClInclude Include="..\..\..\include\llvm\Intrinsics.h" />
+    <ClInclude Include="..\..\..\include\llvm\LinkAllPasses.h" />
+    <ClInclude Include="..\..\..\include\llvm\LinkAllVMCore.h" />
+    <ClInclude Include="..\..\..\include\llvm\Linker.h" />
+    <ClInclude Include="..\..\..\include\llvm\LLVMContext.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCAsmInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCAsmInfoCOFF.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCAsmInfoDarwin.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCAssembler.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCCodeEmitter.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCContext.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCDirectives.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCDisassembler.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCExpr.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCFixup.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCInst.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCInstPrinter.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCParser\AsmCond.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCParser\AsmLexer.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCParser\AsmParser.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCParser\MCAsmLexer.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCParser\MCAsmParser.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCParser\MCParsedAsmOperand.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCSection.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCSectionELF.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCSectionMachO.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCStreamer.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCSymbol.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\MCValue.h" />
+    <ClInclude Include="..\..\..\include\llvm\MC\SectionKind.h" />
+    <ClInclude Include="..\..\..\include\llvm\Metadata.h" />
+    <ClInclude Include="..\..\..\include\llvm\Module.h" />
+    <ClInclude Include="..\..\..\include\llvm\OperandTraits.h" />
+    <ClInclude Include="..\..\..\include\llvm\Operator.h" />
+    <ClInclude Include="..\..\..\include\llvm\Pass.h" />
+    <ClInclude Include="..\..\..\include\llvm\PassAnalysisSupport.h" />
+    <ClInclude Include="..\..\..\include\llvm\PassManager.h" />
+    <ClInclude Include="..\..\..\include\llvm\PassManagers.h" />
+    <ClInclude Include="..\..\..\include\llvm\PassSupport.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\AlignOf.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Allocator.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\CallSite.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Casting.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\CFG.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\circular_raw_ostream.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\CommandLine.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Compiler.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\ConstantFolder.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\ConstantRange.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\DataFlow.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Debug.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\DebugLoc.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\DOTGraphTraits.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Dwarf.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\DynamicLinker.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\ELF.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\ErrorHandling.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\FileUtilities.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Format.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\FormattedStream.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\GetElementPtrTypeIterator.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\GraphWriter.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\InstIterator.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\InstVisitor.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\IRBuilder.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\IRReader.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\LeakDetector.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\MachO.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\ManagedStatic.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\MathExtras.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\MemoryBuffer.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\MemoryObject.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\MutexGuard.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\NoFolder.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\OutputBuffer.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\PassNameParser.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\PatternMatch.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\PluginLoader.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\PointerLikeTypeTraits.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\PredIteratorCache.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\PrettyStackTrace.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\raw_ostream.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\raw_os_ostream.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Recycler.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\RecyclingAllocator.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Regex.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Registry.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\RegistryParser.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\SlowOperationInformer.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\SMLoc.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\SourceMgr.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\StableBasicBlockNumbering.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\StandardPasses.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\StringPool.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\SystemUtils.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\TargetFolder.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\Timer.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\TypeBuilder.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\type_traits.h" />
+    <ClInclude Include="..\..\..\include\llvm\Support\ValueHandle.h" />
+    <ClInclude Include="..\..\..\include\llvm\SymbolTableListTraits.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\AIXDataTypesFix.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Alarm.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Atomic.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Disassembler.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\DynamicLibrary.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Errno.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Host.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\IncludeFile.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Memory.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Mutex.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Path.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Process.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Program.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\RWMutex.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Signals.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Solaris.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\Threading.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\ThreadLocal.h" />
+    <ClInclude Include="..\..\..\include\llvm\System\TimeValue.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\Mangler.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\SubtargetFeature.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetAsmBackend.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetAsmLexer.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetAsmParser.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetData.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetELFWriterInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetFrameInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetInstrDesc.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetInstrInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetInstrItineraries.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetIntrinsicInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetJITInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetLowering.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetLoweringObjectFile.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetMachine.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetOpcodes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetOptions.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetRegisterInfo.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetRegistry.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetSelect.h" />
+    <ClInclude Include="..\..\..\include\llvm\Target\TargetSubtarget.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Instrumentation.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\IPO\InlinerPass.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\IPO.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\RSProfiling.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Scalar.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\AddrModeMatcher.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\BasicBlockUtils.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\BasicInliner.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\BuildLibCalls.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\Cloning.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\FunctionUtils.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\Local.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\PromoteMemToReg.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\SSAUpdater.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\SSI.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\UnifyFunctionExitNodes.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\UnrollLoop.h" />
+    <ClInclude Include="..\..\..\include\llvm\Transforms\Utils\ValueMapper.h" />
+    <ClInclude Include="..\..\..\include\llvm\Type.h" />
+    <ClInclude Include="..\..\..\include\llvm\TypeSymbolTable.h" />
+    <ClInclude Include="..\..\..\include\llvm\Use.h" />
+    <ClInclude Include="..\..\..\include\llvm\User.h" />
+    <ClInclude Include="..\..\..\include\llvm\Value.h" />
+    <ClInclude Include="..\..\..\include\llvm\ValueSymbolTable.h" />
+    <ClInclude Include="..\..\..\include\llvm\Intrinsics.td" />
+    <ClInclude Include="..\..\..\include\llvm\IntrinsicsAlpha.td" />
+    <ClInclude Include="..\..\..\include\llvm\IntrinsicsARM.td" />
+    <ClInclude Include="..\..\..\include\llvm\IntrinsicsCellSPU.td" />
+    <ClInclude Include="..\..\..\include\llvm\IntrinsicsPowerPC.td" />
+    <ClInclude Include="..\..\..\include\llvm\IntrinsicsX86.td" />
+    <ClInclude Include="..\..\..\include\llvm\IntrinsicsXCore.td" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/ZERO_CHECK.vcxproj">
+      <Project>044D3AD0-EE30-488A-96B4-31EE2234F90C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

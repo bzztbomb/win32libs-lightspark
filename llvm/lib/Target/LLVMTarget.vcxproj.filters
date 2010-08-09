@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Mangler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtargetFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetAsmLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetELFWriterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetFrameInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetInstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetIntrinsicInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetLoweringObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetRegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetSubtarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mangler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SubtargetFeature.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Target.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetAsmLexer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetData.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetELFWriterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetFrameInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetInstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetIntrinsicInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetLoweringObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetRegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetSubtarget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

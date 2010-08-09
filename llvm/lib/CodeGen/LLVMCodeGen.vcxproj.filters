@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AggressiveAntiDepBreaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BranchFolding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcSpillWeights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodePlacementOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalAntiDepBreaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadMachineInstructionElim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DwarfEHPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ELFCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ELFWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExactHazardRecognizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCMetadataPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IfConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntrinsicLowering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LLVMTargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LatencyPriorityQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveInterval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveIntervalAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveStackAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveVariables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LowerSubregs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineBasicBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCSE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineDominators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineFunctionAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineFunctionPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineInstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineLICM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineLoopInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineModuleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineModuleInfoImpls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachinePassRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineRegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineSSAUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineVerifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OcamlGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizeExts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizePHIs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PHIElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Passes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostRASchedulerList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PreAllocSplitting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessImplicitDefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrologEpilogInserter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PseudoSourceValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegAllocLinearScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegAllocLocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegAllocPBQP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterCoalescer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterScavenging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAGEmit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAGInstrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAGPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowStackGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShrinkWrapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRegisterCoalescing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SjLjEHPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotIndexes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spiller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackProtector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackSlotColoring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongPHIElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TailDuplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetInstrInfoImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetLoweringObjectFileImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoAddressInstructionPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnreachableBlockElim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtRegMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtRegRewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AggressiveAntiDepBreaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDepBreaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BranchFolding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalAntiDepBreaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ELF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ELFCodeEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ELFWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExactHazardRecognizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PHIElimination.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrologEpilogInserter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScheduleDAGInstrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHazardRecognizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRegisterCoalescing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spiller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtRegMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtRegRewriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A85C369E-CFB9-464E-9FD6-24B610A3373C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AggressiveAntiDepBreaker.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="BranchFolding.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CalcSpillWeights.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CodePlacementOpt.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CriticalAntiDepBreaker.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DeadMachineInstructionElim.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DwarfEHPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ELFCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ELFWriter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ExactHazardRecognizer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GCMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GCMetadataPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GCStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IfConversion.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IntrinsicLowering.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LLVMTargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LatencyPriorityQueue.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LiveInterval.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LiveIntervalAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LiveStackAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LiveVariables.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LowerSubregs.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineBasicBlock.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineCSE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineDominators.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineFunction.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineFunctionAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineFunctionPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineInstr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineLICM.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineLoopInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineModuleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineModuleInfoImpls.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachinePassRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineRegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineSSAUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineSink.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MachineVerifier.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ObjectCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="OcamlGC.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="OptimizeExts.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="OptimizePHIs.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PHIElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Passes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PostRASchedulerList.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PreAllocSplitting.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ProcessImplicitDefs.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PrologEpilogInserter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PseudoSourceValue.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RegAllocLinearScan.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RegAllocLocal.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RegAllocPBQP.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RegisterCoalescer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RegisterScavenging.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAG.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAGEmit.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAGInstrs.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAGPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ShadowStackGC.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ShrinkWrapping.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SimpleRegisterCoalescing.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SjLjEHPrepare.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SlotIndexes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Spiller.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StackProtector.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StackSlotColoring.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StrongPHIElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TailDuplication.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetInstrInfoImpl.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetLoweringObjectFileImpl.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TwoAddressInstructionPass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="UnreachableBlockElim.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="VirtRegMap.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="VirtRegRewriter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿Build started 7/26/2010 12:03:52 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\win32\examples\Kaleidoscope\Chapter3\Kaleidoscope-Ch3.vcxproj" on node 3 (build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/System/LLVMSystem.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include/llvm/intrinsics_gen.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/VMCore/LLVMCore.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Support/LLVMSupport.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1200,9): warning : The referenced project 'C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/ZERO_CHECK.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         Creating "Kaleidoscope-Ch3.dir\Debug\Kaleidoscope-Ch3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/examples/Kaleidoscope/Chapter3/CMakeLists.txt
+         CMake is re-running because C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\examples\Kaleidoscope\Chapter3\CMakeFiles\generate.stamp dependency file is missing.
+     1>CUSTOMBUILD : CMake error : The source directory "C:/Users/skinny/projects/lightspark/lib/llvm-2.7" does not appear to contain CMakeLists.txt.
+         Specify --help for usage, or press the help button on the CMake GUI.
+         The system cannot find the batch label specified - VCReportError
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\win32\examples\Kaleidoscope\Chapter3\Kaleidoscope-Ch3.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17

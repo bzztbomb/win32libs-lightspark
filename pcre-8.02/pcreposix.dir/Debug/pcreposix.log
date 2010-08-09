@@ -1,0 +1,20 @@
+﻿Build started 8/3/2010 6:02:22 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcreposix.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "pcreposix.dir\Debug\pcreposix.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/Users/skinny/projects/lightspark/pcre-8.02" /I"C:/Users/skinny/projects/lightspark/zlib-1.2.5" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"pcreposix.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/pcre-8.02/Debug/pcreposixd.pdb" /Gd /TC /analyze- /errorReport:prompt pcreposix.c  /Zm1000 
+         pcreposix.c
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\pcre-8.02\Debug\pcreposixd.lib" /NOLOGO pcreposix.dir\Debug\pcreposix.obj
+         pcreposix.vcxproj -> C:\Users\skinny\projects\lightspark\pcre-8.02\Debug\pcreposixd.lib
+       FinalizeBuildStatus:
+         Deleting file "pcreposix.dir\Debug\pcreposix.unsuccessfulbuild".
+         Touching "pcreposix.dir\Debug\pcreposix.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcreposix.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.52

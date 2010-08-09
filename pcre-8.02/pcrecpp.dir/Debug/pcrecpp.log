@@ -1,0 +1,25 @@
+﻿Build started 8/3/2010 6:02:22 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcrecpp.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "pcrecpp.dir\Debug\pcrecpp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/Users/skinny/projects/lightspark/pcre-8.02" /I"C:/Users/skinny/projects/lightspark/zlib-1.2.5" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"pcrecpp.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/pcre-8.02/Debug/pcrecppd.pdb" /Gd /TP /analyze- /errorReport:prompt pcrecpp.cc pcre_scanner.cc pcre_stringpiece.cc  /Zm1000 
+         pcrecpp.cc
+         pcre_scanner.cc
+         pcre_stringpiece.cc
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\pcre-8.02\Debug\pcrecppd.lib" /NOLOGO pcrecpp.dir\Debug\pcrecpp.obj
+         pcrecpp.dir\Debug\pcre_scanner.obj
+         pcrecpp.dir\Debug\pcre_stringpiece.obj
+         pcrecpp.vcxproj -> C:\Users\skinny\projects\lightspark\pcre-8.02\Debug\pcrecppd.lib
+       FinalizeBuildStatus:
+         Deleting file "pcrecpp.dir\Debug\pcrecpp.unsuccessfulbuild".
+         Touching "pcrecpp.dir\Debug\pcrecpp.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcrecpp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05

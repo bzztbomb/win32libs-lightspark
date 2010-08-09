@@ -1,0 +1,150 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6206CA89-787C-491F-9018-D61609AE7BDE}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/pcre-8.02;C:/Users/skinny/projects/lightspark/zlib-1.2.5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/pcre-8.02;C:/Users/skinny/projects/lightspark/zlib-1.2.5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/pcre-8.02;C:/Users/skinny/projects/lightspark/zlib-1.2.5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/pcre-8.02;C:/Users/skinny/projects/lightspark/zlib-1.2.5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/pcre-8.02 -BC:/Users/skinny/projects/lightspark/pcre-8.02 --check-stamp-file C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeSystem.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCCompiler.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCPlatform.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindBZip2.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindZLIB.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindReadline.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\config-cmake.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre.h.generic;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_stringpiece.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcrecpparg.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_chartables.c.dist;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/pcre-8.02 -BC:/Users/skinny/projects/lightspark/pcre-8.02 --check-stamp-file C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeSystem.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCCompiler.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCPlatform.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindBZip2.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindZLIB.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindReadline.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\config-cmake.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre.h.generic;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_stringpiece.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcrecpparg.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_chartables.c.dist;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/pcre-8.02 -BC:/Users/skinny/projects/lightspark/pcre-8.02 --check-stamp-file C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeSystem.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCCompiler.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCPlatform.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindBZip2.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindZLIB.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindReadline.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\config-cmake.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre.h.generic;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_stringpiece.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcrecpparg.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_chartables.c.dist;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/pcre-8.02 -BC:/Users/skinny/projects/lightspark/pcre-8.02 --check-stamp-file C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeSystem.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCCompiler.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCPlatform.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindBZip2.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindZLIB.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindReadline.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\cmake\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Users\skinny\projects\lightspark\pcre-8.02\config-cmake.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre.h.generic;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_stringpiece.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcrecpparg.h.in;C:\Users\skinny\projects\lightspark\pcre-8.02\pcre_chartables.c.dist;C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\pcre-8.02\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/ZERO_CHECK.vcxproj">
+      <Project>48A28AC2-3B26-45A4-BC5A-3502C10D462C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcrecpp_unittest.vcxproj">
+      <Project>766D8BA7-CAD0-4C38-A769-467875EF09B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcregrep.vcxproj">
+      <Project>A3E7868A-9C21-4C70-861C-7B999C1A5BA0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcretest.vcxproj">
+      <Project>82B5C0A1-0DE8-4AA8-AFC6-604F14904972</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcre_stringpiece_unittest.vcxproj">
+      <Project>5C6A4DA7-0F78-4DC6-BDF2-A23059B655ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcrecpp.vcxproj">
+      <Project>B246D4C2-AE38-4F00-9840-8155B4E010AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcreposix.vcxproj">
+      <Project>FAC7A493-366C-4970-B43B-46BAED45586C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcre.vcxproj">
+      <Project>1C517251-4474-431F-BAD3-4E05EEF27BE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/pcre-8.02/pcre_scanner_unittest.vcxproj">
+      <Project>D0B6EACF-613B-477A-9FC2-EE996881DEAD</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

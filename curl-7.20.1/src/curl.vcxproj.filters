@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="hugehelp.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="urlglob.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="writeout.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="writeenv.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="getpass.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="homedir.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="curlutil.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="os-specific.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\strtoofft.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\strdup.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\rawstr.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\nonblock.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hugehelp.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="setup.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="config-win32.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="config-mac.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="config-riscos.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="urlglob.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="os-specific.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="writeout.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="writeenv.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="getpass.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="homedir.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="curlutil.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cURLX source files">
+      <UniqueIdentifier>{6E3B1A04-44BF-4871-B670-6D71AF28874F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cURL source files">
+      <UniqueIdentifier>{AD01EC55-75AA-4351-9B38-FB4EA7E0B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cURL header files">
+      <UniqueIdentifier>{C363CA42-5697-423E-83E6-91E9F475951C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="hugehelp.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="urlglob.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="writeout.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="writeenv.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="getpass.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="homedir.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="curlutil.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="os-specific.c">
+      <Filter>cURL source files</Filter>
+    </None>
+    <None Include="..\lib\strtoofft.c">
+      <Filter>cURLX source files</Filter>
+    </None>
+    <None Include="..\lib\strdup.c">
+      <Filter>cURLX source files</Filter>
+    </None>
+    <None Include="..\lib\rawstr.c">
+      <Filter>cURLX source files</Filter>
+    </None>
+    <None Include="..\lib\nonblock.c">
+      <Filter>cURLX source files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

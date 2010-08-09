@@ -1,0 +1,305 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E90DA6E2-324A-4BA3-9EB0-4DB69D82249A}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LLVMCodeGen.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LLVMCodeGen</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LLVMCodeGen.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LLVMCodeGen</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LLVMCodeGen.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LLVMCodeGen</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LLVMCodeGen.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LLVMCodeGen</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMCodeGen.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/lib/Release/LLVMCodeGen.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/lib/MinSizeRel/LLVMCodeGen.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/lib/RelWithDebInfo/LLVMCodeGen.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\llvm\lib\CodeGen\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AggressiveAntiDepBreaker.cpp" />
+    <ClCompile Include="BranchFolding.cpp" />
+    <ClCompile Include="CalcSpillWeights.cpp" />
+    <ClCompile Include="CodePlacementOpt.cpp" />
+    <ClCompile Include="CriticalAntiDepBreaker.cpp" />
+    <ClCompile Include="DeadMachineInstructionElim.cpp" />
+    <ClCompile Include="DwarfEHPrepare.cpp" />
+    <ClCompile Include="ELFCodeEmitter.cpp" />
+    <ClCompile Include="ELFWriter.cpp" />
+    <ClCompile Include="ExactHazardRecognizer.cpp" />
+    <ClCompile Include="GCMetadata.cpp" />
+    <ClCompile Include="GCMetadataPrinter.cpp" />
+    <ClCompile Include="GCStrategy.cpp" />
+    <ClCompile Include="IfConversion.cpp" />
+    <ClCompile Include="IntrinsicLowering.cpp" />
+    <ClCompile Include="LLVMTargetMachine.cpp" />
+    <ClCompile Include="LatencyPriorityQueue.cpp" />
+    <ClCompile Include="LiveInterval.cpp" />
+    <ClCompile Include="LiveIntervalAnalysis.cpp" />
+    <ClCompile Include="LiveStackAnalysis.cpp" />
+    <ClCompile Include="LiveVariables.cpp" />
+    <ClCompile Include="LowerSubregs.cpp" />
+    <ClCompile Include="MachineBasicBlock.cpp" />
+    <ClCompile Include="MachineCSE.cpp" />
+    <ClCompile Include="MachineDominators.cpp" />
+    <ClCompile Include="MachineFunction.cpp" />
+    <ClCompile Include="MachineFunctionAnalysis.cpp" />
+    <ClCompile Include="MachineFunctionPass.cpp" />
+    <ClCompile Include="MachineInstr.cpp" />
+    <ClCompile Include="MachineLICM.cpp" />
+    <ClCompile Include="MachineLoopInfo.cpp" />
+    <ClCompile Include="MachineModuleInfo.cpp" />
+    <ClCompile Include="MachineModuleInfoImpls.cpp" />
+    <ClCompile Include="MachinePassRegistry.cpp" />
+    <ClCompile Include="MachineRegisterInfo.cpp" />
+    <ClCompile Include="MachineSSAUpdater.cpp" />
+    <ClCompile Include="MachineSink.cpp" />
+    <ClCompile Include="MachineVerifier.cpp" />
+    <ClCompile Include="ObjectCodeEmitter.cpp" />
+    <ClCompile Include="OcamlGC.cpp" />
+    <ClCompile Include="OptimizeExts.cpp" />
+    <ClCompile Include="OptimizePHIs.cpp" />
+    <ClCompile Include="PHIElimination.cpp" />
+    <ClCompile Include="Passes.cpp" />
+    <ClCompile Include="PostRASchedulerList.cpp" />
+    <ClCompile Include="PreAllocSplitting.cpp" />
+    <ClCompile Include="ProcessImplicitDefs.cpp" />
+    <ClCompile Include="PrologEpilogInserter.cpp" />
+    <ClCompile Include="PseudoSourceValue.cpp" />
+    <ClCompile Include="RegAllocLinearScan.cpp" />
+    <ClCompile Include="RegAllocLocal.cpp" />
+    <ClCompile Include="RegAllocPBQP.cpp" />
+    <ClCompile Include="RegisterCoalescer.cpp" />
+    <ClCompile Include="RegisterScavenging.cpp" />
+    <ClCompile Include="ScheduleDAG.cpp" />
+    <ClCompile Include="ScheduleDAGEmit.cpp" />
+    <ClCompile Include="ScheduleDAGInstrs.cpp" />
+    <ClCompile Include="ScheduleDAGPrinter.cpp" />
+    <ClCompile Include="ShadowStackGC.cpp" />
+    <ClCompile Include="ShrinkWrapping.cpp" />
+    <ClCompile Include="SimpleRegisterCoalescing.cpp" />
+    <ClCompile Include="SjLjEHPrepare.cpp" />
+    <ClCompile Include="SlotIndexes.cpp" />
+    <ClCompile Include="Spiller.cpp" />
+    <ClCompile Include="StackProtector.cpp" />
+    <ClCompile Include="StackSlotColoring.cpp" />
+    <ClCompile Include="StrongPHIElimination.cpp" />
+    <ClCompile Include="TailDuplication.cpp" />
+    <ClCompile Include="TargetInstrInfoImpl.cpp" />
+    <ClCompile Include="TargetLoweringObjectFileImpl.cpp" />
+    <ClCompile Include="TwoAddressInstructionPass.cpp" />
+    <ClCompile Include="UnreachableBlockElim.cpp" />
+    <ClCompile Include="VirtRegMap.cpp" />
+    <ClCompile Include="VirtRegRewriter.cpp" />
+    <ClInclude Include="AggressiveAntiDepBreaker.h" />
+    <ClInclude Include="AntiDepBreaker.h" />
+    <ClInclude Include="BranchFolding.h" />
+    <ClInclude Include="CriticalAntiDepBreaker.h" />
+    <ClInclude Include="ELF.h" />
+    <ClInclude Include="ELFCodeEmitter.h" />
+    <ClInclude Include="ELFWriter.h" />
+    <ClInclude Include="ExactHazardRecognizer.h" />
+    <ClInclude Include="PHIElimination.h" />
+    <ClInclude Include="PrologEpilogInserter.h" />
+    <ClInclude Include="ScheduleDAGInstrs.h" />
+    <ClInclude Include="SimpleHazardRecognizer.h" />
+    <ClInclude Include="SimpleRegisterCoalescing.h" />
+    <ClInclude Include="Spiller.h" />
+    <ClInclude Include="VirtRegMap.h" />
+    <ClInclude Include="VirtRegRewriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/include/llvm/intrinsics_gen.vcxproj">
+      <Project>8DC38560-238D-462C-970C-8B53536A8DA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/VMCore/LLVMCore.vcxproj">
+      <Project>6168373D-C98E-4A00-86B7-09BC99C15372</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Transforms/Scalar/LLVMScalarOpts.vcxproj">
+      <Project>9B78185A-FE19-4E3E-9B66-8004A765D4B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/ZERO_CHECK.vcxproj">
+      <Project>FDD4AF58-8ABD-47AE-8D31-9F4B3DD4F66B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

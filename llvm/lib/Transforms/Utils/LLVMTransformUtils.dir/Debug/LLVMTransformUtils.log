@@ -1,0 +1,44 @@
+﻿Build started 7/26/2010 1:25:08 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\Utils\LLVMTransformUtils.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "LLVMTransformUtils.dir\Debug\LLVMTransformUtils.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMTransformUtils.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMTransformUtils.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt PromoteMemoryToRegister.cpp  /Zm1000 
+         PromoteMemoryToRegister.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMTransformUtils.lib" /NOLOGO LLVMTransformUtils.dir\Debug\AddrModeMatcher.obj
+         LLVMTransformUtils.dir\Debug\BasicBlockUtils.obj
+         LLVMTransformUtils.dir\Debug\BasicInliner.obj
+         LLVMTransformUtils.dir\Debug\BreakCriticalEdges.obj
+         LLVMTransformUtils.dir\Debug\BuildLibCalls.obj
+         LLVMTransformUtils.dir\Debug\CloneFunction.obj
+         LLVMTransformUtils.dir\Debug\CloneLoop.obj
+         LLVMTransformUtils.dir\Debug\CloneModule.obj
+         LLVMTransformUtils.dir\Debug\CodeExtractor.obj
+         LLVMTransformUtils.dir\Debug\DemoteRegToStack.obj
+         LLVMTransformUtils.dir\Debug\InlineFunction.obj
+         LLVMTransformUtils.dir\Debug\InstructionNamer.obj
+         LLVMTransformUtils.dir\Debug\LCSSA.obj
+         LLVMTransformUtils.dir\Debug\Local.obj
+         LLVMTransformUtils.dir\Debug\LoopSimplify.obj
+         LLVMTransformUtils.dir\Debug\LoopUnroll.obj
+         LLVMTransformUtils.dir\Debug\LowerInvoke.obj
+         LLVMTransformUtils.dir\Debug\LowerSwitch.obj
+         LLVMTransformUtils.dir\Debug\Mem2Reg.obj
+         LLVMTransformUtils.dir\Debug\PromoteMemoryToRegister.obj
+         LLVMTransformUtils.dir\Debug\SSAUpdater.obj
+         LLVMTransformUtils.dir\Debug\SSI.obj
+         LLVMTransformUtils.dir\Debug\SimplifyCFG.obj
+         LLVMTransformUtils.dir\Debug\UnifyFunctionExitNodes.obj
+         LLVMTransformUtils.dir\Debug\ValueMapper.obj
+         LLVMTransformUtils.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMTransformUtils.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMTransformUtils.dir\Debug\LLVMTransformUtils.unsuccessfulbuild".
+         Touching "LLVMTransformUtils.dir\Debug\LLVMTransformUtils.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\Transforms\Utils\LLVMTransformUtils.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.12

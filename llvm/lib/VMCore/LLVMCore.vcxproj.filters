@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AsmWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoUpgrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantFold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dominators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GVMaterializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IRBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineAsm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Instructions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntrinsicInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LLVMContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeakDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PassManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintModulePass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Use.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Verifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConstantFold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantsContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeaksContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LLVMContextImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolTableListTraitsImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypesContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A85C369E-CFB9-464E-9FD6-24B610A3373C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AsmWriter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Attributes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AutoUpgrade.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="BasicBlock.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ConstantFold.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Constants.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Core.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Dominators.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GVMaterializer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IRBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InlineAsm.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Instructions.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IntrinsicInst.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LLVMContext.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LeakDetector.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Metadata.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Module.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Pass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PassManager.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PrintModulePass.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Type.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TypeSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Use.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Value.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ValueSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Verifier.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CallingConvLower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAGCombiner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FastISel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionLoweringInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegalizeDAG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegalizeFloatTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegalizeIntegerTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegalizeTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegalizeTypesGeneric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegalizeVectorOps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LegalizeVectorTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAGFast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAGList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAGRRList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDAGSDNodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionDAG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionDAGBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionDAGISel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionDAGPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetLowering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FunctionLoweringInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LegalizeTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScheduleDAGSDNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDDbgValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDNodeOrdering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionDAGBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A85C369E-CFB9-464E-9FD6-24B610A3373C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CallingConvLower.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DAGCombiner.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="FastISel.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="FunctionLoweringInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstrEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LegalizeDAG.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LegalizeFloatTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LegalizeIntegerTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LegalizeTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LegalizeTypesGeneric.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LegalizeVectorOps.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LegalizeVectorTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAGFast.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAGList.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAGRRList.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ScheduleDAGSDNodes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SelectionDAG.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SelectionDAGBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SelectionDAGISel.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SelectionDAGPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetLowering.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

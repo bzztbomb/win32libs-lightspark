@@ -1,0 +1,4 @@
+C:/Users/skinny/projects/lightspark/curl-7.20.1/CMakeFiles/ALL_BUILD.dir
+C:/Users/skinny/projects/lightspark/curl-7.20.1/CMakeFiles/ZERO_CHECK.dir
+C:/Users/skinny/projects/lightspark/curl-7.20.1/src/CMakeFiles/curl.dir
+C:/Users/skinny/projects/lightspark/curl-7.20.1/lib/CMakeFiles/libcurl.dir

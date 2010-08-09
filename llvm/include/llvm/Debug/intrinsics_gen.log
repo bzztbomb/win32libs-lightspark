@@ -1,0 +1,16 @@
+﻿Build started 7/26/2010 1:10:36 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\include\llvm\intrinsics_gen.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\intrinsics_gen.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Intrinsics.gen...
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/include/llvm/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\include\llvm\CMakeFiles\generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\intrinsics_gen.unsuccessfulbuild".
+         Touching "Debug\intrinsics_gen.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\include\llvm\intrinsics_gen.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.90

@@ -1,0 +1,329 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BD9475F1-F4C8-40FC-AC20-644BADFB9DE8}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">llvm-mc.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">llvm-mc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">llvm-mc.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">llvm-mc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">llvm-mc.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">llvm-mc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">llvm-mc.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">llvm-mc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/Debug/llvm-mc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\LLVMX86AsmPrinter.lib;..\..\lib\Debug\LLVMX86AsmParser.lib;..\..\lib\Debug\LLVMX86Disassembler.lib;..\..\lib\Debug\LLVMX86CodeGen.lib;..\..\lib\Debug\LLVMMCParser.lib;..\..\lib\Debug\LLVMSelectionDAG.lib;..\..\lib\Debug\LLVMX86Info.lib;..\..\lib\Debug\LLVMAsmPrinter.lib;..\..\lib\Debug\LLVMCodeGen.lib;..\..\lib\Debug\LLVMScalarOpts.lib;..\..\lib\Debug\LLVMInstCombine.lib;..\..\lib\Debug\LLVMTransformUtils.lib;..\..\lib\Debug\LLVMipa.lib;..\..\lib\Debug\LLVMAnalysis.lib;..\..\lib\Debug\LLVMTarget.lib;..\..\lib\Debug\LLVMCore.lib;..\..\lib\Debug\LLVMMC.lib;..\..\lib\Debug\LLVMSupport.lib;..\..\lib\Debug\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Debug/llvm-mc.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/Debug/llvm-mc.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/Release/llvm-mc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\LLVMX86AsmPrinter.lib;..\..\lib\Release\LLVMX86AsmParser.lib;..\..\lib\Release\LLVMX86Disassembler.lib;..\..\lib\Release\LLVMX86CodeGen.lib;..\..\lib\Release\LLVMMCParser.lib;..\..\lib\Release\LLVMSelectionDAG.lib;..\..\lib\Release\LLVMX86Info.lib;..\..\lib\Release\LLVMAsmPrinter.lib;..\..\lib\Release\LLVMCodeGen.lib;..\..\lib\Release\LLVMScalarOpts.lib;..\..\lib\Release\LLVMInstCombine.lib;..\..\lib\Release\LLVMTransformUtils.lib;..\..\lib\Release\LLVMipa.lib;..\..\lib\Release\LLVMAnalysis.lib;..\..\lib\Release\LLVMTarget.lib;..\..\lib\Release\LLVMCore.lib;..\..\lib\Release\LLVMMC.lib;..\..\lib\Release\LLVMSupport.lib;..\..\lib\Release\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Release/llvm-mc.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/Release/llvm-mc.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/MinSizeRel/llvm-mc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\LLVMX86AsmPrinter.lib;..\..\lib\MinSizeRel\LLVMX86AsmParser.lib;..\..\lib\MinSizeRel\LLVMX86Disassembler.lib;..\..\lib\MinSizeRel\LLVMX86CodeGen.lib;..\..\lib\MinSizeRel\LLVMMCParser.lib;..\..\lib\MinSizeRel\LLVMSelectionDAG.lib;..\..\lib\MinSizeRel\LLVMX86Info.lib;..\..\lib\MinSizeRel\LLVMAsmPrinter.lib;..\..\lib\MinSizeRel\LLVMCodeGen.lib;..\..\lib\MinSizeRel\LLVMScalarOpts.lib;..\..\lib\MinSizeRel\LLVMInstCombine.lib;..\..\lib\MinSizeRel\LLVMTransformUtils.lib;..\..\lib\MinSizeRel\LLVMipa.lib;..\..\lib\MinSizeRel\LLVMAnalysis.lib;..\..\lib\MinSizeRel\LLVMTarget.lib;..\..\lib\MinSizeRel\LLVMCore.lib;..\..\lib\MinSizeRel\LLVMMC.lib;..\..\lib\MinSizeRel\LLVMSupport.lib;..\..\lib\MinSizeRel\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/MinSizeRel/llvm-mc.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/MinSizeRel/llvm-mc.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/RelWithDebInfo/llvm-mc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include;C:/Users/skinny/projects/lightspark/lib/llvm-2.7/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\LLVMX86AsmPrinter.lib;..\..\lib\RelWithDebInfo\LLVMX86AsmParser.lib;..\..\lib\RelWithDebInfo\LLVMX86Disassembler.lib;..\..\lib\RelWithDebInfo\LLVMX86CodeGen.lib;..\..\lib\RelWithDebInfo\LLVMMCParser.lib;..\..\lib\RelWithDebInfo\LLVMSelectionDAG.lib;..\..\lib\RelWithDebInfo\LLVMX86Info.lib;..\..\lib\RelWithDebInfo\LLVMAsmPrinter.lib;..\..\lib\RelWithDebInfo\LLVMCodeGen.lib;..\..\lib\RelWithDebInfo\LLVMScalarOpts.lib;..\..\lib\RelWithDebInfo\LLVMInstCombine.lib;..\..\lib\RelWithDebInfo\LLVMTransformUtils.lib;..\..\lib\RelWithDebInfo\LLVMipa.lib;..\..\lib\RelWithDebInfo\LLVMAnalysis.lib;..\..\lib\RelWithDebInfo\LLVMTarget.lib;..\..\lib\RelWithDebInfo\LLVMCore.lib;..\..\lib\RelWithDebInfo\LLVMMC.lib;..\..\lib\RelWithDebInfo\LLVMSupport.lib;..\..\lib\RelWithDebInfo\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/RelWithDebInfo/llvm-mc.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/bin/RelWithDebInfo/llvm-mc.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\tools\llvm-mc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/lib/llvm-2.7 -BC:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32 --check-stamp-file C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/lib/llvm-2.7/tools/llvm-mc/CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;C:\Users\skinny\projects\lightspark\lib\llvm-2.7\tools\llvm-mc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\lib\llvm-2.7\win32\tools\llvm-mc\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\tools\llvm-mc\llvm-mc.cpp" />
+    <ClCompile Include="..\..\..\tools\llvm-mc\Disassembler.cpp" />
+    <ClInclude Include="..\..\..\tools\llvm-mc\Disassembler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/System/LLVMSystem.vcxproj">
+      <Project>C55603BF-B1F1-4D86-B867-04A6222E8962</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/include/llvm/intrinsics_gen.vcxproj">
+      <Project>82DE2708-03B3-4F29-A747-76A370A4A629</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/VMCore/LLVMCore.vcxproj">
+      <Project>9A698C1E-AA1A-4850-910E-CCEF4063368D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/CodeGen/LLVMCodeGen.vcxproj">
+      <Project>798D8B6B-7EE0-4438-95AC-F24A83202AEF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/CodeGen/SelectionDAG/LLVMSelectionDAG.vcxproj">
+      <Project>0F365699-B65F-4661-8389-3CA7420FFADA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/CodeGen/AsmPrinter/LLVMAsmPrinter.vcxproj">
+      <Project>CC754AC9-B6E0-4255-9D54-186EB4ADA60C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/Utils/LLVMTransformUtils.vcxproj">
+      <Project>17B53A60-FAFA-49B6-AA66-FC96742C30AC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/InstCombine/LLVMInstCombine.vcxproj">
+      <Project>35741687-CA8E-450E-AB92-A73C57C5D726</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Transforms/Scalar/LLVMScalarOpts.vcxproj">
+      <Project>9FC83D71-161E-44F9-AA2E-4B39FD1B05B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Support/LLVMSupport.vcxproj">
+      <Project>86ADF059-3F14-4B22-A501-A1E8702CCFC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Analysis/LLVMAnalysis.vcxproj">
+      <Project>BA615E22-2366-4C90-ACAB-C23BAFBEA4CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Analysis/IPA/LLVMipa.vcxproj">
+      <Project>21EF68BA-ABD3-4A3B-8881-E6B9A56C51F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/MC/LLVMMC.vcxproj">
+      <Project>B0A626EF-AAFF-4880-BB94-2826CCC129F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/MC/MCParser/LLVMMCParser.vcxproj">
+      <Project>49870AB2-99D6-405C-AA13-C4663ECE1553</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/X86/LLVMX86CodeGen.vcxproj">
+      <Project>CE2CFEE4-2B79-4F20-B171-10831FB8EB64</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/X86/TargetInfo/LLVMX86Info.vcxproj">
+      <Project>EC2C5C68-8C2D-44F7-A4AE-B82C8E02B122</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/X86/AsmPrinter/LLVMX86AsmPrinter.vcxproj">
+      <Project>91B7579B-09B7-4860-99D7-6D406E705D11</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/X86/AsmParser/LLVMX86AsmParser.vcxproj">
+      <Project>EB90107F-0C64-47C7-9583-6A5CE688941C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/X86/Disassembler/LLVMX86Disassembler.vcxproj">
+      <Project>ECD04446-499D-4AA7-A882-F0D1E268A27B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/lib/Target/LLVMTarget.vcxproj">
+      <Project>FD13CECB-EA01-4CDE-8B27-F0F0D0A16126</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/lib/llvm-2.7/win32/ZERO_CHECK.vcxproj">
+      <Project>044D3AD0-EE30-488A-96B4-31EE2234F90C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

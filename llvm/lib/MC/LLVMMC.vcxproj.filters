@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCAsmInfoCOFF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCAsmInfoDarwin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCAsmStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCAssembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCDisassembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCExpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCInstPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCMachOStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCNullStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCSectionELF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCSectionMachO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetAsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCAsmInfoCOFF.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCAsmInfoDarwin.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCAsmStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCAssembler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCContext.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCDisassembler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCExpr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCInst.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCInstPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCMachOStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCNullStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCSection.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCSectionELF.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCSectionMachO.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MCValue.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TargetAsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

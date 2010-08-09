@@ -1,0 +1,59 @@
+﻿Build started 8/3/2010 6:02:18 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcre.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "pcre.dir\Debug\pcre.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/Users/skinny/projects/lightspark/pcre-8.02" /I"C:/Users/skinny/projects/lightspark/zlib-1.2.5" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"pcre.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/pcre-8.02/Debug/pcred.pdb" /Gd /TC /analyze- /errorReport:prompt pcre_chartables.c pcre_compile.c pcre_config.c pcre_dfa_exec.c pcre_exec.c pcre_fullinfo.c pcre_get.c pcre_globals.c pcre_info.c pcre_newline.c pcre_maketables.c pcre_ord2utf8.c pcre_refcount.c pcre_study.c pcre_tables.c pcre_try_flipped.c pcre_ucd.c pcre_valid_utf8.c pcre_version.c pcre_xclass.c  /Zm1000 
+         pcre_chartables.c
+         pcre_compile.c
+         pcre_config.c
+         pcre_dfa_exec.c
+         pcre_exec.c
+         pcre_fullinfo.c
+         pcre_get.c
+         pcre_globals.c
+         pcre_info.c
+         pcre_newline.c
+         pcre_maketables.c
+         pcre_ord2utf8.c
+         pcre_refcount.c
+         pcre_study.c
+         pcre_tables.c
+         pcre_try_flipped.c
+         pcre_ucd.c
+         pcre_valid_utf8.c
+         pcre_version.c
+         pcre_xclass.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\pcre-8.02\Debug\pcred.lib" /NOLOGO pcre.dir\Debug\pcre_chartables.obj
+         pcre.dir\Debug\pcre_compile.obj
+         pcre.dir\Debug\pcre_config.obj
+         pcre.dir\Debug\pcre_dfa_exec.obj
+         pcre.dir\Debug\pcre_exec.obj
+         pcre.dir\Debug\pcre_fullinfo.obj
+         pcre.dir\Debug\pcre_get.obj
+         pcre.dir\Debug\pcre_globals.obj
+         pcre.dir\Debug\pcre_info.obj
+         pcre.dir\Debug\pcre_newline.obj
+         pcre.dir\Debug\pcre_maketables.obj
+         pcre.dir\Debug\pcre_ord2utf8.obj
+         pcre.dir\Debug\pcre_refcount.obj
+         pcre.dir\Debug\pcre_study.obj
+         pcre.dir\Debug\pcre_tables.obj
+         pcre.dir\Debug\pcre_try_flipped.obj
+         pcre.dir\Debug\pcre_ucd.obj
+         pcre.dir\Debug\pcre_valid_utf8.obj
+         pcre.dir\Debug\pcre_version.obj
+         pcre.dir\Debug\pcre_xclass.obj
+         pcre.vcxproj -> C:\Users\skinny\projects\lightspark\pcre-8.02\Debug\pcred.lib
+       FinalizeBuildStatus:
+         Deleting file "pcre.dir\Debug\pcre.unsuccessfulbuild".
+         Touching "pcre.dir\Debug\pcre.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcre.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.13

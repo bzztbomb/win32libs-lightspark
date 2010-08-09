@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ArgumentPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantMerge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadArgumentElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadTypeElimination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractGV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionAttrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalDCE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPConstantPropagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineAlways.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineSimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inliner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Internalize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LowerSetJmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartialInlining.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartialSpecialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PruneEH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StripDeadPrototypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StripSymbols.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StructRetPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArgumentPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ConstantMerge.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DeadArgumentElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DeadTypeElimination.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ExtractGV.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="FunctionAttrs.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GlobalDCE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="GlobalOpt.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IPConstantPropagation.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IPO.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InlineAlways.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InlineSimple.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Inliner.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Internalize.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LoopExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LowerSetJmp.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MergeFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PartialInlining.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PartialSpecialization.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PruneEH.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StripDeadPrototypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StripSymbols.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="StructRetPromotion.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Alarm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Atomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Disassembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Errno.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Host.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IncludeFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RWMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Signals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadLocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alarm.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Atomic.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Disassembler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DynamicLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Errno.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Host.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IncludeFile.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Path.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Process.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RWMutex.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Signals.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ThreadLocal.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Threading.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TimeValue.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Unix\Alarm.inc" />
+    <None Include="Unix\Host.inc" />
+    <None Include="Unix\Memory.inc" />
+    <None Include="Unix\Mutex.inc" />
+    <None Include="Unix\Path.inc" />
+    <None Include="Unix\Process.inc" />
+    <None Include="Unix\Program.inc" />
+    <None Include="Unix\RWMutex.inc" />
+    <None Include="Unix\Signals.inc" />
+    <None Include="Unix\ThreadLocal.inc" />
+    <None Include="Unix\TimeValue.inc" />
+    <None Include="Win32\Alarm.inc" />
+    <None Include="Win32\DynamicLibrary.inc" />
+    <None Include="Win32\Host.inc" />
+    <None Include="Win32\Memory.inc" />
+    <None Include="Win32\Mutex.inc" />
+    <None Include="Win32\Path.inc" />
+    <None Include="Win32\Process.inc" />
+    <None Include="Win32\Program.inc" />
+    <None Include="Win32\RWMutex.inc" />
+    <None Include="Win32\Signals.inc" />
+    <None Include="Win32\ThreadLocal.inc" />
+    <None Include="Win32\TimeValue.inc" />
+  </ItemGroup>
+</Project>

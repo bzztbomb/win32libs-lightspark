@@ -1,0 +1,82 @@
+﻿Build started 7/26/2010 1:10:38 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\VMCore\LLVMCore.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "LLVMCore.dir\Debug\LLVMCore.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/VMCore/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\lib\VMCore\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMCore.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMCore.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt AsmWriter.cpp Attributes.cpp AutoUpgrade.cpp BasicBlock.cpp ConstantFold.cpp Constants.cpp Core.cpp Dominators.cpp Function.cpp GVMaterializer.cpp Globals.cpp IRBuilder.cpp InlineAsm.cpp Instruction.cpp Instructions.cpp IntrinsicInst.cpp LLVMContext.cpp LeakDetector.cpp Metadata.cpp Module.cpp Pass.cpp PassManager.cpp PrintModulePass.cpp Type.cpp TypeSymbolTable.cpp Use.cpp Value.cpp ValueSymbolTable.cpp ValueTypes.cpp Verifier.cpp  /Zm1000 
+         AsmWriter.cpp
+         Attributes.cpp
+         AutoUpgrade.cpp
+         BasicBlock.cpp
+         ConstantFold.cpp
+         Constants.cpp
+         Core.cpp
+         Dominators.cpp
+         Function.cpp
+         GVMaterializer.cpp
+         Globals.cpp
+         IRBuilder.cpp
+         InlineAsm.cpp
+         Instruction.cpp
+         Instructions.cpp
+         IntrinsicInst.cpp
+         LLVMContext.cpp
+         LeakDetector.cpp
+         Metadata.cpp
+         Module.cpp
+         Generating Code...
+         Compiling...
+         Pass.cpp
+         PassManager.cpp
+         PrintModulePass.cpp
+         Type.cpp
+         TypeSymbolTable.cpp
+         Use.cpp
+         Value.cpp
+         ValueSymbolTable.cpp
+         ValueTypes.cpp
+         Verifier.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMCore.lib" /NOLOGO LLVMCore.dir\Debug\AsmWriter.obj
+         LLVMCore.dir\Debug\Attributes.obj
+         LLVMCore.dir\Debug\AutoUpgrade.obj
+         LLVMCore.dir\Debug\BasicBlock.obj
+         LLVMCore.dir\Debug\ConstantFold.obj
+         LLVMCore.dir\Debug\Constants.obj
+         LLVMCore.dir\Debug\Core.obj
+         LLVMCore.dir\Debug\Dominators.obj
+         LLVMCore.dir\Debug\Function.obj
+         LLVMCore.dir\Debug\GVMaterializer.obj
+         LLVMCore.dir\Debug\Globals.obj
+         LLVMCore.dir\Debug\IRBuilder.obj
+         LLVMCore.dir\Debug\InlineAsm.obj
+         LLVMCore.dir\Debug\Instruction.obj
+         LLVMCore.dir\Debug\Instructions.obj
+         LLVMCore.dir\Debug\IntrinsicInst.obj
+         LLVMCore.dir\Debug\LLVMContext.obj
+         LLVMCore.dir\Debug\LeakDetector.obj
+         LLVMCore.dir\Debug\Metadata.obj
+         LLVMCore.dir\Debug\Module.obj
+         LLVMCore.dir\Debug\Pass.obj
+         LLVMCore.dir\Debug\PassManager.obj
+         LLVMCore.dir\Debug\PrintModulePass.obj
+         LLVMCore.dir\Debug\Type.obj
+         LLVMCore.dir\Debug\TypeSymbolTable.obj
+         LLVMCore.dir\Debug\Use.obj
+         LLVMCore.dir\Debug\Value.obj
+         LLVMCore.dir\Debug\ValueSymbolTable.obj
+         LLVMCore.dir\Debug\ValueTypes.obj
+         LLVMCore.dir\Debug\Verifier.obj
+         LLVMCore.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMCore.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMCore.dir\Debug\LLVMCore.unsuccessfulbuild".
+         Touching "LLVMCore.dir\Debug\LLVMCore.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\VMCore\LLVMCore.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:55.01

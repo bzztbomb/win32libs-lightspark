@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\lib\MC\MCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCAsmInfoCOFF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCAsmInfoDarwin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCAsmStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCAssembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCDisassembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCExpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCInstPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCMachOStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCNullStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCSectionELF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCSectionMachO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\MCValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\MC\TargetAsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\lib\MC\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36F6D7A9-8DCD-4F9C-BF95-90F27A94CCF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\lib\MC\MCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCAsmInfoCOFF.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCAsmInfoDarwin.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCAsmStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCAssembler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCContext.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCDisassembler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCExpr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCInst.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCInstPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCMachOStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCNullStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCSection.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCSectionELF.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCSectionMachO.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCSymbol.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\MCValue.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\MC\TargetAsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

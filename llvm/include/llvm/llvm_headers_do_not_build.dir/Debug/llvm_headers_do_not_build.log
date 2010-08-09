@@ -1,0 +1,19 @@
+﻿Build started 7/26/2010 1:24:34 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\include\llvm\llvm_headers_do_not_build.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "llvm_headers_do_not_build.dir\Debug\llvm_headers_do_not_build.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         llvm_headers_do_not_build.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\llvm_headers_do_not_build.lib
+       FinalizeBuildStatus:
+         Deleting file "llvm_headers_do_not_build.dir\Debug\llvm_headers_do_not_build.unsuccessfulbuild".
+         Touching "llvm_headers_do_not_build.dir\Debug\llvm_headers_do_not_build.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\include\llvm\llvm_headers_do_not_build.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

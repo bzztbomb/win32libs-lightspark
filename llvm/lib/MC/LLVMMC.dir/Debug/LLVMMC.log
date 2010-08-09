@@ -1,0 +1,60 @@
+﻿Build started 7/26/2010 1:14:30 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\MC\LLVMMC.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "LLVMMC.dir\Debug\LLVMMC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/MC/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\lib\MC\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMMC.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMMC.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt MCAsmInfo.cpp MCAsmInfoCOFF.cpp MCAsmInfoDarwin.cpp MCAsmStreamer.cpp MCAssembler.cpp MCCodeEmitter.cpp MCContext.cpp MCDisassembler.cpp MCExpr.cpp MCInst.cpp MCInstPrinter.cpp MCMachOStreamer.cpp MCNullStreamer.cpp MCSection.cpp MCSectionELF.cpp MCSectionMachO.cpp MCStreamer.cpp MCSymbol.cpp MCValue.cpp TargetAsmBackend.cpp  /Zm1000 
+         MCAsmInfo.cpp
+         MCAsmInfoCOFF.cpp
+         MCAsmInfoDarwin.cpp
+         MCAsmStreamer.cpp
+         MCAssembler.cpp
+         MCCodeEmitter.cpp
+         MCContext.cpp
+         MCDisassembler.cpp
+         MCExpr.cpp
+         MCInst.cpp
+         MCInstPrinter.cpp
+         MCMachOStreamer.cpp
+         MCNullStreamer.cpp
+         MCSection.cpp
+         MCSectionELF.cpp
+         MCSectionMachO.cpp
+         MCStreamer.cpp
+         MCSymbol.cpp
+         MCValue.cpp
+         TargetAsmBackend.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMMC.lib" /NOLOGO LLVMMC.dir\Debug\MCAsmInfo.obj
+         LLVMMC.dir\Debug\MCAsmInfoCOFF.obj
+         LLVMMC.dir\Debug\MCAsmInfoDarwin.obj
+         LLVMMC.dir\Debug\MCAsmStreamer.obj
+         LLVMMC.dir\Debug\MCAssembler.obj
+         LLVMMC.dir\Debug\MCCodeEmitter.obj
+         LLVMMC.dir\Debug\MCContext.obj
+         LLVMMC.dir\Debug\MCDisassembler.obj
+         LLVMMC.dir\Debug\MCExpr.obj
+         LLVMMC.dir\Debug\MCInst.obj
+         LLVMMC.dir\Debug\MCInstPrinter.obj
+         LLVMMC.dir\Debug\MCMachOStreamer.obj
+         LLVMMC.dir\Debug\MCNullStreamer.obj
+         LLVMMC.dir\Debug\MCSection.obj
+         LLVMMC.dir\Debug\MCSectionELF.obj
+         LLVMMC.dir\Debug\MCSectionMachO.obj
+         LLVMMC.dir\Debug\MCStreamer.obj
+         LLVMMC.dir\Debug\MCSymbol.obj
+         LLVMMC.dir\Debug\MCValue.obj
+         LLVMMC.dir\Debug\TargetAsmBackend.obj
+         LLVMMC.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMMC.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMMC.dir\Debug\LLVMMC.unsuccessfulbuild".
+         Touching "LLVMMC.dir\Debug\LLVMMC.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\MC\LLVMMC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.43

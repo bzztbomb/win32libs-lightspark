@@ -1,0 +1,13 @@
+﻿Build started 7/26/2010 2:10:24 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\pcre-8.02\ALL_BUILD.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "ALL_BUILD.dir\Debug\ALL_BUILD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Open Source/pcre-8.02/CMakeLists.txt
+         The system cannot find the path specified.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 3.
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\pcre-8.02\ALL_BUILD.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07

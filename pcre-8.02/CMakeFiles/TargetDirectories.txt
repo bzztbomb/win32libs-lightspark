@@ -1,0 +1,10 @@
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/ALL_BUILD.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/ZERO_CHECK.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcre.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcre_scanner_unittest.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcre_stringpiece_unittest.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcrecpp.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcrecpp_unittest.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcregrep.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcreposix.dir
+C:/Users/skinny/projects/lightspark/pcre-8.02/CMakeFiles/pcretest.dir

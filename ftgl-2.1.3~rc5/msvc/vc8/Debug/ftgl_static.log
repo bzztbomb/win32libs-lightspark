@@ -1,0 +1,82 @@
+﻿Build started 7/26/2010 2:57:09 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\ftgl_static.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ftgl_static.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /I../../src/ /I/include /I"../../../freetype-2.1.10/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D FTGL_LIBRARY_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\FTBuffer.cpp ..\..\src\FTCharmap.cpp ..\..\src\FTContour.cpp ..\..\src\FTFace.cpp ..\..\src\FTGlyphContainer.cpp ..\..\src\FTLibrary.cpp ..\..\src\FTPoint.cpp ..\..\src\FTSize.cpp ..\..\src\FTVectoriser.cpp ..\..\src\FTFont\FTBitmapFont.cpp ..\..\src\FTFont\FTBufferFont.cpp ..\..\src\FTFont\FTExtrudeFont.cpp ..\..\src\FTFont\FTFont.cpp ..\..\src\FTFont\FTFontGlue.cpp ..\..\src\FTFont\FTOutlineFont.cpp ..\..\src\FTFont\FTPixmapFont.cpp ..\..\src\FTFont\FTPolygonFont.cpp ..\..\src\FTFont\FTTextureFont.cpp ..\..\src\FTGlyph\FTBitmapGlyph.cpp ..\..\src\FTGlyph\FTBufferGlyph.cpp ..\..\src\FTGlyph\FTExtrudeGlyph.cpp ..\..\src\FTGlyph\FTGlyph.cpp ..\..\src\FTGlyph\FTGlyphGlue.cpp ..\..\src\FTGlyph\FTOutlineGlyph.cpp ..\..\src\FTGlyph\FTPixmapGlyph.cpp ..\..\src\FTGlyph\FTPolygonGlyph.cpp ..\..\src\FTGlyph\FTTextureGlyph.cpp ..\..\src\FTLayout\FTLayout.cpp ..\..\src\FTLayout\FTLayoutGlue.cpp ..\..\src\FTLayout\FTSimpleLayout.cpp
+         FTSimpleLayout.cpp
+         FTLayoutGlue.cpp
+         FTLayout.cpp
+         FTTextureGlyph.cpp
+         FTPolygonGlyph.cpp
+         FTPixmapGlyph.cpp
+         FTOutlineGlyph.cpp
+         FTGlyphGlue.cpp
+         FTGlyph.cpp
+         FTExtrudeGlyph.cpp
+         FTBufferGlyph.cpp
+         FTBitmapGlyph.cpp
+         FTTextureFont.cpp
+         FTPolygonFont.cpp
+         FTPixmapFont.cpp
+         FTOutlineFont.cpp
+         FTFontGlue.cpp
+         FTFont.cpp
+         FTExtrudeFont.cpp
+         FTBufferFont.cpp
+         Generating Code...
+         Compiling...
+         FTBitmapFont.cpp
+         FTVectoriser.cpp
+         FTSize.cpp
+         FTPoint.cpp
+         FTLibrary.cpp
+         FTGlyphContainer.cpp
+         FTFace.cpp
+         FTContour.cpp
+         FTCharmap.cpp
+         FTBuffer.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\Debug\ftgl_static.lib) does not match the Library's OutputFile property value (C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\build\ftgl_static_D.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(ftgl_static) does not match the Library's OutputFile property value (ftgl_static_D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"../build/ftgl_static_D.lib" /NOLOGO Debug\FTBuffer.obj
+         Debug\FTCharmap.obj
+         Debug\FTContour.obj
+         Debug\FTFace.obj
+         Debug\FTGlyphContainer.obj
+         Debug\FTLibrary.obj
+         Debug\FTPoint.obj
+         Debug\FTSize.obj
+         Debug\FTVectoriser.obj
+         Debug\FTBitmapFont.obj
+         Debug\FTBufferFont.obj
+         Debug\FTExtrudeFont.obj
+         Debug\FTFont.obj
+         Debug\FTFontGlue.obj
+         Debug\FTOutlineFont.obj
+         Debug\FTPixmapFont.obj
+         Debug\FTPolygonFont.obj
+         Debug\FTTextureFont.obj
+         Debug\FTBitmapGlyph.obj
+         Debug\FTBufferGlyph.obj
+         Debug\FTExtrudeGlyph.obj
+         Debug\FTGlyph.obj
+         Debug\FTGlyphGlue.obj
+         Debug\FTOutlineGlyph.obj
+         Debug\FTPixmapGlyph.obj
+         Debug\FTPolygonGlyph.obj
+         Debug\FTTextureGlyph.obj
+         Debug\FTLayout.obj
+         Debug\FTLayoutGlue.obj
+         Debug\FTSimpleLayout.obj
+         ftgl_static.vcxproj -> C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\Debug\ftgl_static.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ftgl_static.unsuccessfulbuild".
+         Touching "Debug\ftgl_static.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\ftgl-2.1.3~rc5\msvc\vc8\ftgl_static.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.82

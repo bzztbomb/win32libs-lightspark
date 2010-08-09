@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SDL">
+</Property><Property Name="Solution File" Value="C:\Open Source\SDL-1.2.14\VisualC\SDL.sln">
+</Property><Property Name="Date" Value="26 May 2010">
+</Property><Property Name="Time" Value="21:56">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SDL.sln" Description="File successfully backed up as C:\Open Source\SDL-1.2.14\VisualC\SDL.sln.old">
+</Event><Event ErrorLevel="0" Project="SDL" Source="SDL\SDL.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="SDL" Source="SDL\SDL.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="SDL" Source="SDL\SDL.vcproj" Description="Project file successfully backed up as 'C:\Open Source\SDL-1.2.14\VisualC\SDL\SDL.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="SDL" Source="SDL\SDL.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="SDL" Source="SDL\SDL.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="SDLmain" Source="SDLmain\SDLmain.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="SDLmain" Source="SDLmain\SDLmain.vcproj" Description="Project file successfully backed up as 'C:\Open Source\SDL-1.2.14\VisualC\SDLmain\SDLmain.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="SDLmain" Source="SDLmain\SDLmain.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="SDLmain" Source="SDLmain\SDLmain.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SDL.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SDL.sln" Description="Converted">
+</Event></UpgradeLog>

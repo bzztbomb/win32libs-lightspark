@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AsmMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsmWriterEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsmWriterInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CallingConvEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClangDiagnosticsEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeEmitterGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGenDAGPatterns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGenInstruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGenTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAGISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAGISelMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAGISelMatcherGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAGISelMatcherOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DAGISelMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisassemblerEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FastISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrEnumEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntrinsicEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LLVMCConfigurationEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptParserEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtargetEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TGLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TGParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TGValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableGenBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X86DisassemblerTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X86RecognizableInstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3009CC90-5CD5-4DC1-B80F-39749CB18D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AsmMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AsmWriterEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="AsmWriterInst.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CallingConvEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ClangDiagnosticsEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CodeEmitterGen.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CodeGenDAGPatterns.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CodeGenInstruction.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="CodeGenTarget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DAGISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DAGISelMatcherEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DAGISelMatcherGen.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DAGISelMatcherOpt.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DAGISelMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="DisassemblerEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="EDEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="FastISelEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstrEnumEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="InstrInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="IntrinsicEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LLVMCConfigurationEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="OptParserEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Record.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RegisterInfoEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SubtargetEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TGLexer.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TGParser.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TGValueTypes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TableGen.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TableGenBackend.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="X86DisassemblerTables.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="X86RecognizableInstr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

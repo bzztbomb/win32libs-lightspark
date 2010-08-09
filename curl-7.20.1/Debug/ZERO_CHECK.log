@@ -1,0 +1,20 @@
+﻿Build started 7/26/2010 4:09:55 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\curl-7.20.1\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/skinny/projects/lightspark/curl-7.20.1/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/skinny/projects/lightspark/curl-7.20.1/lib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/skinny/projects/lightspark/curl-7.20.1/src/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/skinny/projects/lightspark/curl-7.20.1/tests/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/skinny/projects/lightspark/curl-7.20.1/tests/libtest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/skinny/projects/lightspark/curl-7.20.1/tests/server/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Debug\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\curl-7.20.1\ZERO_CHECK.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57

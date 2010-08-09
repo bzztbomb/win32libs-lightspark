@@ -1,0 +1,324 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B11A8A78-8C0A-4504-85FC-F5BCCEC14723}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\llvm\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Kaleidoscope-Ch5.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Kaleidoscope-Ch5</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\llvm\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Kaleidoscope-Ch5.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Kaleidoscope-Ch5</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\llvm\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Kaleidoscope-Ch5.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Kaleidoscope-Ch5</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\llvm\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Kaleidoscope-Ch5.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Kaleidoscope-Ch5</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/Debug/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Debug\LLVMJIT.lib;..\..\..\lib\Debug\LLVMInterpreter.lib;..\..\..\lib\Debug\LLVMX86CodeGen.lib;..\..\..\lib\Debug\LLVMExecutionEngine.lib;..\..\..\lib\Debug\LLVMSelectionDAG.lib;..\..\..\lib\Debug\LLVMX86Info.lib;..\..\..\lib\Debug\LLVMAsmPrinter.lib;..\..\..\lib\Debug\LLVMCodeGen.lib;..\..\..\lib\Debug\LLVMScalarOpts.lib;..\..\..\lib\Debug\LLVMInstCombine.lib;..\..\..\lib\Debug\LLVMTransformUtils.lib;..\..\..\lib\Debug\LLVMipa.lib;..\..\..\lib\Debug\LLVMAnalysis.lib;..\..\..\lib\Debug\LLVMTarget.lib;..\..\..\lib\Debug\LLVMCore.lib;..\..\..\lib\Debug\LLVMMC.lib;..\..\..\lib\Debug\LLVMSupport.lib;..\..\..\lib\Debug\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/llvm/lib/Debug/Kaleidoscope-Ch5.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/Debug/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/Release/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Release\LLVMJIT.lib;..\..\..\lib\Release\LLVMInterpreter.lib;..\..\..\lib\Release\LLVMX86CodeGen.lib;..\..\..\lib\Release\LLVMExecutionEngine.lib;..\..\..\lib\Release\LLVMSelectionDAG.lib;..\..\..\lib\Release\LLVMX86Info.lib;..\..\..\lib\Release\LLVMAsmPrinter.lib;..\..\..\lib\Release\LLVMCodeGen.lib;..\..\..\lib\Release\LLVMScalarOpts.lib;..\..\..\lib\Release\LLVMInstCombine.lib;..\..\..\lib\Release\LLVMTransformUtils.lib;..\..\..\lib\Release\LLVMipa.lib;..\..\..\lib\Release\LLVMAnalysis.lib;..\..\..\lib\Release\LLVMTarget.lib;..\..\..\lib\Release\LLVMCore.lib;..\..\..\lib\Release\LLVMMC.lib;..\..\..\lib\Release\LLVMSupport.lib;..\..\..\lib\Release\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/llvm/lib/Release/Kaleidoscope-Ch5.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/Release/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/MinSizeRel/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\MinSizeRel\LLVMJIT.lib;..\..\..\lib\MinSizeRel\LLVMInterpreter.lib;..\..\..\lib\MinSizeRel\LLVMX86CodeGen.lib;..\..\..\lib\MinSizeRel\LLVMExecutionEngine.lib;..\..\..\lib\MinSizeRel\LLVMSelectionDAG.lib;..\..\..\lib\MinSizeRel\LLVMX86Info.lib;..\..\..\lib\MinSizeRel\LLVMAsmPrinter.lib;..\..\..\lib\MinSizeRel\LLVMCodeGen.lib;..\..\..\lib\MinSizeRel\LLVMScalarOpts.lib;..\..\..\lib\MinSizeRel\LLVMInstCombine.lib;..\..\..\lib\MinSizeRel\LLVMTransformUtils.lib;..\..\..\lib\MinSizeRel\LLVMipa.lib;..\..\..\lib\MinSizeRel\LLVMAnalysis.lib;..\..\..\lib\MinSizeRel\LLVMTarget.lib;..\..\..\lib\MinSizeRel\LLVMCore.lib;..\..\..\lib\MinSizeRel\LLVMMC.lib;..\..\..\lib\MinSizeRel\LLVMSupport.lib;..\..\..\lib\MinSizeRel\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/llvm/lib/MinSizeRel/Kaleidoscope-Ch5.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/MinSizeRel/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4503;4996;4800;4244;4624;4355;4715;4180;4345;4224;4351</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/RelWithDebInfo/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Users/skinny/projects/lightspark/llvm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\RelWithDebInfo\LLVMJIT.lib;..\..\..\lib\RelWithDebInfo\LLVMInterpreter.lib;..\..\..\lib\RelWithDebInfo\LLVMX86CodeGen.lib;..\..\..\lib\RelWithDebInfo\LLVMExecutionEngine.lib;..\..\..\lib\RelWithDebInfo\LLVMSelectionDAG.lib;..\..\..\lib\RelWithDebInfo\LLVMX86Info.lib;..\..\..\lib\RelWithDebInfo\LLVMAsmPrinter.lib;..\..\..\lib\RelWithDebInfo\LLVMCodeGen.lib;..\..\..\lib\RelWithDebInfo\LLVMScalarOpts.lib;..\..\..\lib\RelWithDebInfo\LLVMInstCombine.lib;..\..\..\lib\RelWithDebInfo\LLVMTransformUtils.lib;..\..\..\lib\RelWithDebInfo\LLVMipa.lib;..\..\..\lib\RelWithDebInfo\LLVMAnalysis.lib;..\..\..\lib\RelWithDebInfo\LLVMTarget.lib;..\..\..\lib\RelWithDebInfo\LLVMCore.lib;..\..\..\lib\RelWithDebInfo\LLVMMC.lib;..\..\..\lib\RelWithDebInfo\LLVMSupport.lib;..\..\..\lib\RelWithDebInfo\LLVMSystem.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/skinny/projects/lightspark/llvm/lib/RelWithDebInfo/Kaleidoscope-Ch5.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/Users/skinny/projects/lightspark/llvm/bin/RelWithDebInfo/Kaleidoscope-Ch5.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/skinny/projects/lightspark/llvm -BC:/Users/skinny/projects/lightspark/llvm --check-stamp-file C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skinny/projects/lightspark/llvm/examples/Kaleidoscope/Chapter5/CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\skinny\projects\lightspark\llvm\examples\Kaleidoscope\Chapter5\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="toy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/include/llvm/intrinsics_gen.vcxproj">
+      <Project>8DC38560-238D-462C-970C-8B53536A8DA3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Support/LLVMSupport.vcxproj">
+      <Project>70F92797-398F-4369-A707-14AA58067C91</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/System/LLVMSystem.vcxproj">
+      <Project>6FA5AAFD-7DBE-432A-ABB5-3CCFFEBA3678</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/VMCore/LLVMCore.vcxproj">
+      <Project>6168373D-C98E-4A00-86B7-09BC99C15372</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/LLVMCodeGen.vcxproj">
+      <Project>E90DA6E2-324A-4BA3-9EB0-4DB69D82249A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/SelectionDAG/LLVMSelectionDAG.vcxproj">
+      <Project>BA741355-840F-4AD4-99AD-A6E0DE4027F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/CodeGen/AsmPrinter/LLVMAsmPrinter.vcxproj">
+      <Project>20B6502D-641E-4306-B6C9-7AC1E251FEB2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Transforms/Utils/LLVMTransformUtils.vcxproj">
+      <Project>2363A990-7762-4B19-828E-6FD60217B8A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Transforms/InstCombine/LLVMInstCombine.vcxproj">
+      <Project>ABC6B8BF-FDD7-467C-9D73-64A0B476DE00</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Transforms/Scalar/LLVMScalarOpts.vcxproj">
+      <Project>9B78185A-FE19-4E3E-9B66-8004A765D4B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Analysis/LLVMAnalysis.vcxproj">
+      <Project>18A4AB95-8F58-41AA-A567-DC44C76872A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Analysis/IPA/LLVMipa.vcxproj">
+      <Project>F6802F4B-E52E-4054-8B52-FDC3C5631622</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/MC/LLVMMC.vcxproj">
+      <Project>33443BD5-9888-44B9-BD4F-E69769BD4C61</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Target/X86/LLVMX86CodeGen.vcxproj">
+      <Project>ACCA77E5-B0F7-409B-9959-07DB4664B6F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Target/X86/TargetInfo/LLVMX86Info.vcxproj">
+      <Project>CE6B6904-8368-4660-9383-F119CEFD5BFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/ExecutionEngine/LLVMExecutionEngine.vcxproj">
+      <Project>C1A5285F-68B4-4403-ABB4-6CEE9665678A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/ExecutionEngine/Interpreter/LLVMInterpreter.vcxproj">
+      <Project>1F18B26F-3281-43C3-9078-F294872FD94A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/ExecutionEngine/JIT/LLVMJIT.vcxproj">
+      <Project>CA27954A-401B-4A9A-AFB2-922B861D4578</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/lib/Target/LLVMTarget.vcxproj">
+      <Project>0E132631-952D-4D22-B3AE-5B9BA34DC7AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/skinny/projects/lightspark/llvm/ZERO_CHECK.vcxproj">
+      <Project>FDD4AF58-8ABD-47AE-8D31-9F4B3DD4F66B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

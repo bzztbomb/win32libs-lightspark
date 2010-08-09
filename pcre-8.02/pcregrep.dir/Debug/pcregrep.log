@@ -1,0 +1,22 @@
+﻿Build started 8/3/2010 6:04:44 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcregrep.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "pcregrep.dir\Debug\pcregrep.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skinny\projects\lightspark\pcre-8.02\DEBUG\pcregrep.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\pcreposixd.lib "C:\Users\skinny\projects\lightspark\zlib-1.2.5\contrib\vstudio\vc9\x86\ZlibDllDebug\zlibwapi.lib" Debug\pcred.lib /MANIFEST /ManifestFile:"pcregrep.dir\Debug\pcregrep.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\skinny\projects\lightspark\pcre-8.02\DEBUG\pcregrep.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/skinny/projects/lightspark/pcre-8.02/DEBUG/pcregrep.lib" /MACHINE:X86 pcregrep.dir\Debug\pcregrep.exe.embed.manifest.res
+         pcregrep.dir\Debug\pcregrep.obj  /machine:X86 /debug 
+     1>pcregrep.obj : error LNK2019: unresolved external symbol _gzread referenced in function _pcregrep
+     1>pcregrep.obj : error LNK2019: unresolved external symbol _gzclose referenced in function _grep_or_recurse
+     1>pcregrep.obj : error LNK2019: unresolved external symbol _gzopen referenced in function _grep_or_recurse
+     1>C:\Users\skinny\projects\lightspark\pcre-8.02\DEBUG\pcregrep.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\pcre-8.02\pcregrep.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40

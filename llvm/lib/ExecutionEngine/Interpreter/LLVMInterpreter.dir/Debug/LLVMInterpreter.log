@@ -1,0 +1,26 @@
+﻿Build started 7/26/2010 1:14:43 PM.
+     1>Project "C:\Users\skinny\projects\lightspark\llvm\lib\ExecutionEngine\Interpreter\LLVMInterpreter.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "LLVMInterpreter.dir\Debug\LLVMInterpreter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/skinny/projects/lightspark/llvm/lib/ExecutionEngine/Interpreter/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\skinny\projects\lightspark\llvm\lib\ExecutionEngine\Interpreter\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/skinny/projects/lightspark/llvm/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"LLVMInterpreter.dir\Debug\\" /Fd"C:/Users/skinny/projects/lightspark/llvm/lib/Debug/LLVMInterpreter.pdb" /Gd /TP /wd4146 /wd4503 /wd4996 /wd4800 /wd4244 /wd4624 /wd4355 /wd4715 /wd4180 /wd4345 /wd4224 /wd4351 /analyze- /errorReport:prompt Execution.cpp ExternalFunctions.cpp Interpreter.cpp  /Zm1000 
+         Execution.cpp
+         ExternalFunctions.cpp
+         Interpreter.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMInterpreter.lib" /NOLOGO LLVMInterpreter.dir\Debug\Execution.obj
+         LLVMInterpreter.dir\Debug\ExternalFunctions.obj
+         LLVMInterpreter.dir\Debug\Interpreter.obj
+         LLVMInterpreter.vcxproj -> C:\Users\skinny\projects\lightspark\llvm\lib\Debug\LLVMInterpreter.lib
+       FinalizeBuildStatus:
+         Deleting file "LLVMInterpreter.dir\Debug\LLVMInterpreter.unsuccessfulbuild".
+         Touching "LLVMInterpreter.dir\Debug\LLVMInterpreter.lastbuildstate".
+     1>Done Building Project "C:\Users\skinny\projects\lightspark\llvm\lib\ExecutionEngine\Interpreter\LLVMInterpreter.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.90
